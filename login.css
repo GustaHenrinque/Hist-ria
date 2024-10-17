@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+}
+
+.login-box {
+    width: 30%; /* Largura da barra de login */
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2px solid #000000; /* Borda à direita da caixa de login */
+}
+
+.login-box h1 {
+    text-align: center;
+    margin: 70px;
+    font-size: 45px;
+ 
+
+}
+
+.input-container {
+    margin-bottom: 15px; /* Espaço entre os campos de entrada */
+}
+
+label {
+    margin-bottom: 5px;
+    padding: 5px;
+    display: block; /* Garante que o label ocupe uma linha inteira */
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 5px; /* Diminuindo o padding para reduzir a altura */
+    border: 2px solid #2FA8FF; /* Cor das bordas dos campos de entrada */
+    border-radius: 5px;
+    color: white; /* Cor do texto dentro dos campos */
+    background-color: black; /* Fundo preto para os campos de entrada */
+    width: 100%; /* Faz com que os campos tenham uma largura de 90% */
+    margin-top: 10px; /* Espaço acima do campo de entrada */
+}
+
+button {
+    padding: 10px;
+    background-color: #2FA8FF; /* Cor do botão */
+    border: none;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px; /* Espaço acima do botão */
+    width: 40%; /* Botão ocupa toda a largura da barra */
+    text-align: center
+}
+
+button:hover {
+    background-color: #1c7a9c; /* Cor do botão ao passar o mouse */
+}
+
+.image-box {
+    flex: 1; /* A imagem ocupa o espaço restante */
+    background-image: url('img/loginhistoria2.png'); /* URL da imagem de fundo */
+    background-size: cover; /* A imagem cobre toda a área */
+    background-position: center; /* A imagem é centralizada */
+}
