@@ -7,7 +7,7 @@
 
 /* Estilos Gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif; /* Alterado para Merriweather Sans */
     background-color: #000;
     color: #fff;
     line-height: 1.6;
@@ -26,7 +26,7 @@ body {
 
 h1 {
     font-size: 3em;
-    font-family: 'Kavoon', cursive;
+    font-family: 'Kavoon', cursive; /* Mantido como Kavoon para o título principal */
     color: #fff;
     margin-bottom: 5px;
 }
@@ -53,6 +53,13 @@ h2, h3 {
     color: #fff;
     margin-top: 10px;
     font-size: 2.2em; 
+}
+
+/* Estilo para os títulos Kavoon */
+.kavoon-title {
+    font-family: 'Kavoon', cursive; 
+    color: #fff;
+    font-size: 2em; /* Ajuste o tamanho conforme necessário */
 }
 
 p {
