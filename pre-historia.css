@@ -48,6 +48,13 @@ h2, h3 {
     margin-bottom: 15px;
 }
 
+.section.paleolitico h3 {
+    font-family: 'Kavoon', cursive; /* Define a fonte Kavoon para o título Paleolítico */
+    color: #fff; /* Define a cor do título como branco */
+    margin-top: 10px; /* Adiciona margem acima do título para espaçamento */
+    font-size: 2.2em; /* Ajusta o tamanho da fonte para um pouco menor */
+}
+
 p {
     margin-bottom: 10px;
     font-size: 1.1em;
