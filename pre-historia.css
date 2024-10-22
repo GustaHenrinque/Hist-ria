@@ -42,17 +42,17 @@ h1 {
 }
 
 h2, h3 {
-    color: #ffc800;
-    border-bottom: 2px solid #ffc800;
+    color: white;
+    border-bottom: 4px solid #6878f4;
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
 
 .section.paleolitico h3 {
-    font-family: 'Kavoon', cursive; /* Define a fonte Kavoon para o título Paleolítico */
-    color: #fff; /* Define a cor do título como branco */
-    margin-top: 10px; /* Adiciona margem acima do título para espaçamento */
-    font-size: 2.2em; /* Ajusta o tamanho da fonte para um pouco menor */
+    font-family: 'Kavoon', cursive; 
+    color: #fff;
+    margin-top: 10px;
+    font-size: 2.2em; 
 }
 
 p {
@@ -68,17 +68,17 @@ p {
 }
 
 .text {
-    width: 60%; /* Largura do texto */
-    margin-bottom: 20px; /* Margem inferior para espaço entre texto e imagem */
+    width: 60%;
+    margin-bottom: 20px;
 }
 
 .image {
-    width: 35%; /* Largura da imagem */
+    width: 35%;
     text-align: center;
 }
 
 .image img {
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 8px;
 }
 
@@ -95,7 +95,21 @@ p {
 }
 
 .paleolitico .image img {
-    margin-right: 20px; /* Aumenta a margem direita da imagem da caveira */
+    margin-right: 20px;
+}
+
+/* Estilos específicos para o Mesolítico e Neolítico */
+.section.mesolitico-neolitico .content {
+    flex-direction: row; /* A imagem fica à esquerda do texto */
+    justify-content: space-between; /* Espaçamento entre imagem e texto */
+}
+
+.mesolitico-neolitico .image img {
+    margin-left: 20px; /* Espaçamento à esquerda da imagem */
+}
+
+.mesolitico-neolitico .text {
+    margin-top: 40px; /* Aumenta a margem superior ao texto do Mesolítico */
 }
 
 /* Media Queries para Responsividade */
