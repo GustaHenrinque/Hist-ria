@@ -1,0 +1,175 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    display: flex; /* Usar flexbox para o alinhamento */
+    align-items: center; /* Centralizar verticalmente */
+    background-color: #000; /* Fundo preto */
+    color: white;
+    padding: 15px 30px; /* Ajuste o padding conforme necessário */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    width: 100%; /* Faz com que o menu ocupe toda a largura do header */
+}
+
+.menu-icon {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    display: flex; /* Usar flexbox para os links */
+    justify-content: center; /* Centralizar os links horizontalmente */
+    gap: 20px; /* Espaço entre os links */
+    flex-grow: 1; /* Permitir que o nav ocupe o espaço disponível */
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+header a:hover {
+    color: #00bfff; /* Cor do texto ao passar o mouse */
+}
+
+header a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #00bfff; /* Sublinhar azul claro */
+    transition: width 0.3s;
+    margin-top: 5px;
+}
+
+header a:hover::after {
+    width: 100%; /* Efeito de sublinhado ao passar o mouse */
+}
+
+/* Seção Hero */
+.hero {
+    height: 100vh;
+    background: url('img/periodos.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 100vw;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1); /* Tornando o overlay mais claro */
+}
+
+.content h4 {
+    font-family: 'Inria Serif', serif;
+    font-size: 50px;
+    margin-bottom: 24px;
+    color: #f4f4f4; /* Cor mais clara para o texto */
+}
+
+.highlight {
+    color: #00bfff;
+}
+
+/* Seção Principal */
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.content-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.content-box h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #333; /* Tornando os títulos mais escuros para contraste */
+}
+
+.content-box p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333; /* Cor mais clara para o botão */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555; /* Tom mais claro no hover */
+}
+
+/* Estilos do Footer */
+footer {
+    background-color: #000; /* Fundo escuro para o footer */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    position: relative; /* Para evitar sobreposição */
+    bottom: 0; /* Coloca o footer na parte inferior */
+    width: 100%; /* Largura total */
+    margin-top: 20px; /* Espaçamento acima do footer */
+}
+
+/* Media Query para Responsividade */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
