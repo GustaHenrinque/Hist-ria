@@ -10,7 +10,7 @@
     <div class="login-container">
         <div class="login-box">
             <h1>LOGIN</h1>
-            <form>
+            <form id="loginForm">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" placeholder="" required>
 
@@ -22,5 +22,20 @@
         </div>
         <div class="image-box"></div>
     </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (username === "AlunoSesi" && password === "707070") {
+                window.location.href = "INDEX.html"; 
+            } else {
+                alert("Usuário ou senha incorretos.");
+            }
+        });
+    </script>
 </body>
 </html>
