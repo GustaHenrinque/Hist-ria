@@ -6,7 +6,6 @@
 }
 
 body {
-   
     background-color: #f4f4f4;
     width: 100vw;
     overflow-x: hidden;
@@ -23,6 +22,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
+    height: 77px;
 }
 
 .menu {
@@ -37,26 +37,55 @@ header {
     cursor: pointer;
 }
 
-nav {
-    display: flex; /* Usar flexbox para os links */
-    justify-content: center; /* Centralizar os links horizontalmente */
-    gap: 20px; /* Espaço entre os links */
-    flex-grow: 1; /* Permitir que o nav ocupe o espaço disponível */
+
+.container {
+    display: flex;
+    position: relative;
+    z-index: 1;  
 }
 
-header a {
+.sidebar {
+    width: 250px;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: left 0.3s ease;
+    z-index: 1001;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    padding: 0 15px;
+    
 }
 
-header a:hover {
+.sidebar ul li a:hover {
     color: #00bfff; /* Cor do texto ao passar o mouse */
 }
-
-header a::after {
+.sidebar a::after {
     content: '';
     display: block;
     width: 0;
@@ -65,11 +94,19 @@ header a::after {
     transition: width 0.3s;
     margin-top: 5px;
 }
-
-header a:hover::after {
-    width: 100%; /* Efeito de sublinhado ao passar o mouse */
+.sidebar a:hover::after {
+    width: 70%; /* Efeito de sublinhado ao passar o mouse */
 }
 
+.menu-toggle {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1002;
+}
 /* Seção Hero */
 .hero {
     height: 100vh;
@@ -91,17 +128,17 @@ header a:hover::after {
     height: 100%;
     background: rgba(0, 0, 0, 0); /* Tornando o overlay mais claro */
 }
-
-.content h5 {
-    font-family: 'Inria Serif';
-    font-size: 40px;
-    margin-bottom: 24px;
+ h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 43px;
+    
     color: #f4f4f4; /* Cor mais clara para o texto */
 }
 
 .highlight {
     color: #00bfff;
 }
+
 
 /* Seção Principal */
 .main-content {
@@ -112,16 +149,15 @@ header a:hover::after {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
 .content-box {
     background-color: #fff;
     padding: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 280px;
+    max-width: 375px;
     text-align: center;
-    height: 350px;
+    height: 420px;
 }
 
 .content-box img {
@@ -140,21 +176,24 @@ header a:hover::after {
 .content-box p {
     font-size: 0.9rem;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
 }
 
 .button {
-    background-color: #333; /* Cor mais clara para o botão */
-    color: #fff;
-    border: none;
+    background-color: #ffffff; /* Cor mais clara para o botão */
+    color: #515151;
+    border: 2px solid #DEDEDE; /* Adiciona uma borda de 2px na cor cinza */
     padding: 12px 17px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-decoration: none;
+    font-size: 13px;
 }
 
 .button:hover {
-    background-color: #555; /* Tom mais claro no hover */
+    background-color: #dbdbdb; /* Tom mais claro no hover */
+    border-color: #818181; /* Borda um pouco mais clara no hover */
 }
 
 /* Estilos do Footer */
@@ -167,6 +206,18 @@ footer {
     bottom: 0; /* Coloca o footer na parte inferior */
     width: 100%; /* Largura total */
     margin-top: 20px; /* Espaçamento acima do footer */
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease;
+}
+
+/* Classe para elementos que estão visíveis */
+.reveal.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Media Query para Responsividade */
