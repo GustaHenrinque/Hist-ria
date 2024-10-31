@@ -30,8 +30,6 @@ body {
     text-align: center;
     margin: 70px;
     font-size: 45px;
- 
-
 }
 
 .input-container {
@@ -59,16 +57,27 @@ button {
     padding: 10px;
     background-color: #2FA8FF; /* Cor do botão */
     border: none;
-    border-radius: 100px;
+    border-radius: 0; /* Remove o arredondamento */
     color: white;
     cursor: pointer;
     margin-top: 10px; /* Espaço acima do botão */
-    width: 40%; /* Botão ocupa toda a largura da barra */
-    text-align: center
+    width: 100%; /* Botão ocupa toda a largura da barra */
+    text-align: center;
 }
 
 button:hover {
     background-color: #1c7a9c; /* Cor do botão ao passar o mouse */
+}
+
+.button-container {
+    margin-top: 10px; /* Espaço acima do traço */
+    text-align: center; /* Centraliza o traço */
+}
+
+.line {
+    border-bottom: 2px solid #2FA8FF; /* Estilo do traço */
+    width: 40%; /* Largura do traço */
+    margin: 0 auto; /* Centraliza o traço */
 }
 
 .image-box {
