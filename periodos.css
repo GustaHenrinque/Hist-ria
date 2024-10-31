@@ -143,6 +143,13 @@ h4 {
 .highlight {
     color: #00bfff;
 }
+.hero .fa-arrow-down {
+    font-size: 24px;
+    color: #00bfff; /* Cor da seta */
+    margin: 30px;
+}
+
+
 
 /* Seção Principal */
 .main-content {
