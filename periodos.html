@@ -6,6 +6,8 @@
     <title>Períodos Históricos</title>
     <link rel="stylesheet" href="periodos.css"> <!-- Arquivo CSS -->
     <script src="js.js" defer></script> <!-- Arquivo JS com defer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
 
@@ -33,12 +35,17 @@
     
         </div>
 </header>
-    <section class="hero">
-        <div class="overlay"></div>
-        <div class="content">
-            <h4>Comece a <span class="highlight">estudar</span> história através de<br> nossa linha do <span class="highlight">tempo!</span></h4>
-        </div>
-    </section>
+<section class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+        <h4>Comece a <span class="highlight">estudar</span> história através de<br> nossa linha do <span class="highlight">tempo!</span></h4>
+        <i class="fas fa-arrow-down"></i>
+    </div>
+</section>
+
+
+
+
 
     <section class="main-content">
         <div class="content-box reveal">
