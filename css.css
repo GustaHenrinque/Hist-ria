@@ -12,22 +12,35 @@ body {
 }
 
 header {
-    display: flex; /* Usar flexbox para o alinhamento */
-    align-items: center; /* Centralizar verticalmente */
-    background-color: #000; /* Fundo preto */
-    color: white;
-    padding: 15px 30px; /* Ajuste o padding conforme necessário */
     position: fixed;
     top: 0;
-    width: 100%;
-    z-index: 1000;
-    height: 77px;
+    width: 100vw; /* Ocupa toda a largura da tela */
+    padding: 16px 28px; 
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+header a:hover {
+    color: #00bfff; /* Cor do texto ao passar o mouse */
+}
+
+header a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #00bfff; /* Sublinhar azul claro */
+    transition: width 0.3s;
+    margin-top: 5px;
+}
+
+header a:hover::after {
+    width: 100%; /* Efeito de sublinhado ao passar o mouse */
 }
 
 .menu {
     display: flex;
-    align-items: center; /* Centralizar verticalmente */
-    width: 100%; /* Faz com que o menu ocupe toda a largura do header */
+    justify-content: space-between;
+    width: 100%;
 }
 
 .menu-icon {
@@ -36,11 +49,13 @@ header {
     cursor: pointer;
 }
 
-
-.container {
-    display: flex;
-    position: relative;
-    z-index: 1;  
+.login-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px 20px;
+    padding-left: 1400px;
 }
 
 .sidebar {
@@ -106,6 +121,7 @@ header {
     left: 20px;
     z-index: 1002;
 }
+
 
 .hero {
     height: 100vh;
