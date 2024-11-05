@@ -64,13 +64,12 @@ input[type="password"]:focus {
 button {
     background-color: #2FA8FF; /* Cor do botão */
     border: none;
-    border-radius: 50%; /* Bordas totalmente arredondadas para deixar o botão redondo */
+    border-radius: 10px; /* Bordas totalmente arredondadas para deixar o botão redondo */
     color: white;
     cursor: pointer;
-    width: 60px; /* Largura do botão */
-    height: 60px; /* Altura do botão */
+    width: 100%; /* Largura do botão */
+    height: 30px; /* Altura do botão */
     text-align: center;
-    line-height: 60px; /* Alinhamento vertical do texto */
     transition: background-color 0.3s ease, transform 0.2s; /* Transição suave para o hover */
 }
 
