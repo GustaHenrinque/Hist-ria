@@ -1,9 +1,10 @@
 <?php
 session_start();
+
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "nome_de_historia";
+$dbname = "historia";
 
 // Conectar ao banco de dados
 $conn = new mysqli($servername, $username, $password, $dbname);
