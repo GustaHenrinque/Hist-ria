@@ -31,6 +31,7 @@ if ($_SESSION['autenticado'] == TRUE) {
                 <li><a href="moderna.php">Idade Moderna</a></li>
                 <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
             </ul>
+            <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
