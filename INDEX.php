@@ -1,8 +1,10 @@
 <?php
-if ($_SESSION['autenticado'] == TRUE) {
-    header('Location: index.php');
-} else {
+session_start();
+
+if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] !== TRUE) {
+    // Redireciona para a página de login se o usuário não estiver autenticado
     header('Location: login.php');
+    exit; // Encerra o script para evitar execução do restante do código
 }
 ?>
 <!DOCTYPE html>
@@ -14,17 +16,13 @@ if ($_SESSION['autenticado'] == TRUE) {
     <link rel="stylesheet" href="css.css"> <!-- Arquivo CSS -->
     <script src="js.js" defer></script> <!-- Arquivo JS com defer -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 <body>
-<header>
-        
-        
-    
+<header>    
     <div class="container">
         <nav class="sidebar" id="sidebar">
             <ul>
-                <li><a href="INDEX.php">Início</a></li>
+                <li><a href="index.php">Início</a></li>
                 <li><a href="pre-historia.php">História Primitiva</a></li>
                 <li><a href="antiga.php">História Antiga</a></li>
                 <li><a href="media.php">Idade Média</a></li>
@@ -37,19 +35,16 @@ if ($_SESSION['autenticado'] == TRUE) {
         <div class="menu-toggle" id="menuToggle">
             <span>☰</span>
         </div>
-
-    
-        </div>
+    </div>
 </header>
 
-    <section class="hero">
-        <div class="overlay"></div>
-        <div class="content">
-            <h4>Aprenda mais sobre<br> Períodos <span class="highlight">HISTÓRICOS!</span></h4>
-            <p>Explore o passado com a melhor comunidade<br> de história do país.</p>
-            <a href="periodos.php" class="cta-button">SAIBA MAIS</a>
-        </div>
-    </section>
+<section class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+        <h4>Aprenda mais sobre<br> Períodos <span class="highlight">HISTÓRICOS!</span></h4>
+        <p>Explore o passado com a melhor comunidade<br> de história do país.</p>
+        <a href="periodos.php" class="cta-button">SAIBA MAIS</a>
+    </div>
+</section>
 </body>
 </html>
-
