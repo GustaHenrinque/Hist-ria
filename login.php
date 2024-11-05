@@ -16,7 +16,7 @@
             $servername = "localhost";
             $username = "root";
             $password = "";
-            $dbname = "nome_de_historia";
+            $dbname = "historia";
 
             // Conectar ao banco de dados
             $conn = new mysqli($servername, $username, $password, $dbname);
@@ -48,6 +48,7 @@
                     if (password_verify($senha, $user['senha'])) {
                         $_SESSION['nome'] = $user['nome'];
                         $_SESSION['tipo'] = $tipo;
+                        $_SESSION['autenticado'] == TRUE;
                         // Login bem-sucedido, redireciona para a página desejada
                         header("Location: INDEX.php");
                         exit;
@@ -77,13 +78,15 @@
                 <select name="tipo" id="tipo" required>
                     <option value="professor">Professor</option>
                     <option value="aluno">Aluno</option>
-                </select>
+                </select> <br>
+                <br>
 
                 <button type="submit">Entrar</button>
-            </form>
+            </form> <br>
 
             <!-- Botão Cadastre-se -->
-            <p>Não tem uma conta? <button type="button" onclick="window.location.href='login_cadastro.php';">Cadastre-se</button></p>
+            <p>Não tem uma conta?</p> <br>
+            <button type="button" onclick="window.location.href='login_cadastro.php';">Cadastre-se</button>
         </div>
         <div class="image-box"></div>
     </div>
