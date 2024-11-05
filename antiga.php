@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Período da Idade Antiga</title>
     <link rel="stylesheet" href="todamateria.css">
+    <script src="js.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
+<header>
+    <div class="barra">
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="INDEX.php">Início</a></li>
+                <li><a href="pre-historia.php">História Primitiva</a></li>
+                <li><a href="antiga.php">História Antiga</a></li>
+                <li><a href="media.php">Idade Média</a></li>
+                <li><a href="moderna.php">Idade Moderna</a></li>
+                <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-toggle" id="menuToggle">
+            <span>☰</span>
+        </div>
+
+    
+        </div>
+</header>
     <div class="container">
         <section class="header">
             <h1>Idade Antiga</h1>

@@ -12,10 +12,7 @@
 <body>
 
     <!-- Header atualizado -->
-     <header>
-        
-        
-    
+<header>
     <div class="container">
         <nav class="sidebar" id="sidebar">
             <ul>
@@ -85,13 +82,14 @@
 
 
             <a href="moderna.php" class="button">SABER MAIS</a>
+            
+        </div>
 
         <div class="content-box reveal">
             <img src="./img/conteporania.png" alt="Imagem da Idade Contemporânea">
             <h2>IDADE CONTEMPORÂNEA</h2>
             <p>A Idade Contemporânea abrange do final do século XVIII até os dias atuais, incluindo revoluções industriais, guerras mundiais e inovações tecnológicas que moldaram o mundo moderno.</p>
 
-            <a href="pre-historia.php" class="button">Saber Mais</a>
 
             <a href="pre-historia.php" class="button">SABER MAIS</a>
 
