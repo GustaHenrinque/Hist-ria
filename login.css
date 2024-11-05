@@ -1,3 +1,4 @@
+/* Estilo geral */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -44,40 +45,43 @@ label {
 
 input[type="text"],
 input[type="password"] {
-    padding: 5px; /* Diminuindo o padding para reduzir a altura */
+    padding: 10px; /* Aumentando o padding para um visual mais espaçado */
     border: 2px solid #2FA8FF; /* Cor das bordas dos campos de entrada */
-    border-radius: 5px;
+    border-radius: 20px; /* Bordas arredondadas */
     color: white; /* Cor do texto dentro dos campos */
     background-color: black; /* Fundo preto para os campos de entrada */
-    width: 100%; /* Faz com que os campos tenham uma largura de 90% */
+    width: 100%; /* Faz com que os campos tenham uma largura total */
     margin-top: 10px; /* Espaço acima do campo de entrada */
+    outline: none; /* Remove o contorno */
+    transition: border-color 0.3s ease; /* Transição suave para o foco */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #1c7a9c; /* Muda a cor da borda ao focar */
 }
 
 button {
-    padding: 10px;
     background-color: #2FA8FF; /* Cor do botão */
     border: none;
-    border-radius: 0; /* Remove o arredondamento */
+    border-radius: 50%; /* Bordas totalmente arredondadas para deixar o botão redondo */
     color: white;
     cursor: pointer;
-    margin-top: 10px; /* Espaço acima do botão */
-    width: 100%; /* Botão ocupa toda a largura da barra */
+    width: 60px; /* Largura do botão */
+    height: 60px; /* Altura do botão */
     text-align: center;
+    line-height: 60px; /* Alinhamento vertical do texto */
+    transition: background-color 0.3s ease, transform 0.2s; /* Transição suave para o hover */
 }
 
 button:hover {
     background-color: #1c7a9c; /* Cor do botão ao passar o mouse */
+    transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
 }
 
 .button-container {
     margin-top: 10px; /* Espaço acima do traço */
     text-align: center; /* Centraliza o traço */
-}
-
-.line {
-    border-bottom: 2px solid #2FA8FF; /* Estilo do traço */
-    width: 40%; /* Largura do traço */
-    margin: 0 auto; /* Centraliza o traço */
 }
 
 .image-box {
