@@ -29,18 +29,19 @@
                 // Receber dados do formulário
                 $email = $_POST['username'];
                 $senha = $_POST['password'];
-
-                // Verificar o tipo de usuário
                 $tipo = $_POST['tipo'];
 
-                // Consultar o banco de dados com base no tipo de usuário
-                if ($tipo === 'professor') {
-                    $sql = "SELECT * FROM professores WHERE email='$email'";
-                } else {
-                    $sql = "SELECT * FROM alunos WHERE email='$email'";
+                // Validar email
+                if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                    echo "<script>alert('Email inválido.');</script>";
+                    exit;
                 }
 
-                $result = $conn->query($sql);
+                // Consultar o banco de dados com base no tipo de usuário
+                $stmt = $conn->prepare("SELECT * FROM " . ($tipo === 'professor' ? 'professores' : 'alunos') . " WHERE email=?");
+                $stmt->bind_param("s", $email);
+                $stmt->execute();
+                $result = $stmt->get_result();
 
                 if ($result->num_rows > 0) {
                     $user = $result->fetch_assoc();
@@ -58,6 +59,8 @@
                     // Mensagem de erro
                     echo "<script>alert('Usuário não encontrado.');</script>";
                 }
+
+                $stmt->close(); // Fechar statement
             }
 
             $conn->close();
@@ -77,12 +80,10 @@
                 </select>
 
                 <button type="submit">Entrar</button>
-                <div class="line"></div> <!-- Traço abaixo do botão "Entrar" -->
             </form>
 
             <!-- Botão Cadastre-se -->
             <p>Não tem uma conta? <button type="button" onclick="window.location.href='login_cadastro.php';">Cadastre-se</button></p>
-            <div class="line"></div> <!-- Traço abaixo do botão "Cadastre-se" -->
         </div>
         <div class="image-box"></div>
     </div>
