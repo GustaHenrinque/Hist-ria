@@ -59,7 +59,9 @@
             // Adiciona os termos salvos à lista
             savedTerms.forEach(term => {
                 const listItem = document.createElement("li");
-                listItem.innerHTML = `<strong>${term.name}:</strong> ${term.definition} <button onclick="removeTerm(this)">Excluir</button>`;
+                listItem.innerHTML = `<strong>${term.name}:</strong> ${term.definition} 
+                                      <button onclick="removeTerm(this)">Excluir</button> 
+                                      <button onclick="editTerm('${term.name}')">Editar</button>`;
                 glossaryList.appendChild(listItem);
             });
         }
@@ -122,6 +124,29 @@
             });
         }
 
+        // Função para editar um termo existente
+        function editTerm(termName) {
+            const savedTerms = JSON.parse(localStorage.getItem("glossary")) || [];
+
+            // Encontrar o termo que deve ser editado
+            const termToEdit = savedTerms.find(term => term.name === termName);
+
+            if (termToEdit) {
+                const newDefinition = prompt("Editar definição:", termToEdit.definition);
+
+                if (newDefinition) {
+                    // Atualizar a definição do termo
+                    termToEdit.definition = newDefinition;
+
+                    // Atualizar o localStorage com a lista de termos modificada
+                    localStorage.setItem("glossary", JSON.stringify(savedTerms));
+
+                    // Recarregar os termos na página
+                    loadGlossary();
+                }
+            }
+        }
+
         // Carregar a lista de termos quando a página for carregada
         window.onload = () => {
             // Carregar termos pré-definidos, se não existirem no localStorage
@@ -148,31 +173,15 @@
                 { name: "Despotismo", definition: "Governo absoluto de um monarca ou líder." },
                 { name: "Difusão Cultural", definition: "Espalhamento de elementos culturais entre diferentes grupos sociais." },
                 { name: "Ditadura", definition: "Governo em que o poder é concentrado nas mãos de uma única pessoa ou grupo." },
-                { name: "Divisão do Trabalho", definition: "Organização de tarefas em uma sociedade, com especialização em diferentes funções." },
-                { name: "Doutrina Monroe", definition: "Política externa dos Estados Unidos, que visava impedir a intervenção europeia nas Américas." },
-                { name: "Empirismo", definition: "Teoria filosófica que defende o conhecimento como resultado da experiência." },
-                { name: "Enlightenment", definition: "Movimento intelectual do século XVIII que enfatizava razão, ciência e direitos humanos." },
-                { name: "Escambo", definition: "Troca direta de bens sem o uso de dinheiro." },
-                { name: "Escravidão", definition: "Sistema de trabalho forçado, onde os indivíduos são considerados propriedade de outro." },
-                { name: "Estado-nação", definition: "Forma de organização política em que um território corresponde a um Estado independente." },
-                { name: "Feudalismo", definition: "Sistema social e econômico medieval baseado nas relações de vassalagem e posse de terras." },
-                { name: "Filosofia", definition: "Estudo das questões fundamentais sobre existência, conhecimento e ética." },
-                { name: "Fronteira", definition: "Linha que demarca os limites de um território ou estado." },
-                { name: "Globalização", definition: "Processo de integração econômica, política e cultural em uma escala mundial." },
-                { name: "Guerra Fria", definition: "Período de tensão política e militar entre os Estados Unidos e a União Soviética após a Segunda Guerra Mundial." },
-                { name: "Guerra Fria", definition: "Conflito ideológico entre blocos capitalista e comunista no século XX." },
-                { name: "Guerra dos Trinta Anos", definition: "Conflito religioso e político entre países europeus, que durou de 1618 a 1648." },
-                { name: "Humanismo", definition: "Movimento cultural do Renascimento que enfatizava o valor do ser humano e suas capacidades." },
-                { name: "Iluminismo", definition: "Movimento intelectual do século XVIII que defendia a razão, a ciência e os direitos humanos." }
+                { name: "Divisão do Trabalho", definition: "Distribuição de tarefas de acordo com as especialidades de cada trabalhador." }
             ];
 
-            const savedTerms = JSON.parse(localStorage.getItem("glossary")) || [];
-            if (savedTerms.length === 0) {
+            if (!localStorage.getItem("glossary")) {
                 localStorage.setItem("glossary", JSON.stringify(defaultTerms));
             }
 
             loadGlossary();
-        };
+        }
     </script>
 </body>
 </html>
