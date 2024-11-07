@@ -42,7 +42,7 @@ if ($_SESSION['autenticado'] == TRUE) {
             <p class="subtitle">A Idade Antiga marca o surgimento das primeiras civilizações, como Egito, Mesopotâmia, Grécia e Roma, que pavimentaram o caminho para o desenvolvimento da cultura, ciência e política ocidental, deixando um legado profundo e duradouro na história da humanidade.</p>
         </section>
 
-        <!-- Seção sobre as primeiras civilizações -->
+        
         <section class="section idade-antiga">
             <h3>Primeiras Civilizações</h3>
             <div class="content">
@@ -79,7 +79,7 @@ if ($_SESSION['autenticado'] == TRUE) {
             </div>
         </section>
 
-        <!-- Seção Divisão do Trabalho na Idade Antiga -->
+    
         <section class="section trabalho">
             <h3 class="kavoon-title">Divisão do Trabalho na Idade Antiga</h3>
             <p>
@@ -88,7 +88,7 @@ if ($_SESSION['autenticado'] == TRUE) {
             </p>
         </section>
 
-        <!-- Seção Arte na Idade Antiga -->
+       
         <section class="section arte">
             <h3 class="kavoon-title">Arte na Idade Antiga</h3>
             <div class="content">

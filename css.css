@@ -6,21 +6,41 @@
 
 body {
     background-color: #f4f4f4;
-    width: 100vw; /* Garante que o site ocupe 100% da largura da janela */
-    overflow-x: hidden; /* Remove a barra de rolagem horizontal, se houver */
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 header {
     position: fixed;
     top: 0;
-    width: 100%; /* Usa 100% da largura da tela para evitar problemas de overflow */
-    padding: 16px 28px; 
+    width: 100%;
+    padding: 35px 30px;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 10;
 }
 
 header a:hover {
-    color: #00bfff; /* Cor do texto ao passar o mouse */
+    color: #00bfff;
+}
+
+.login-area {
+    position: absolute;
+    top: 10px;
+    right: 0; 
+    padding-right: 10px; 
+}
+
+.btn-login {
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #555;
 }
 
 header a::after {
@@ -28,13 +48,13 @@ header a::after {
     display: block;
     width: 0;
     height: 2px;
-    background: #00bfff; /* Sublinhar azul claro */
+    background: #00bfff;
     transition: width 0.3s;
     margin-top: 5px;
 }
 
 header a:hover::after {
-    width: 100%; /* Efeito de sublinhado ao passar o mouse */
+    width: 100%;
 }
 
 .menu {
@@ -96,7 +116,7 @@ header a:hover::after {
 }
 
 .sidebar ul li a:hover {
-    color: #00bfff; /* Cor do texto ao passar o mouse */
+    color: #00bfff;
 }
 
 .sidebar a::after {
@@ -104,13 +124,13 @@ header a:hover::after {
     display: block;
     width: 0;
     height: 2px;
-    background: #00bfff; /* Sublinhar azul claro */
+    background: #00bfff;
     transition: width 0.3s;
     margin-top: 5px;
 }
 
 .sidebar a:hover::after {
-    width: 70%; /* Efeito de sublinhado ao passar o mouse */
+    width: 70%;
 }
 
 .menu-toggle {
@@ -225,7 +245,6 @@ button:hover {
     background-color: #333;
 }
 
-/* Media Query para Responsividade */
 @media (max-width: 768px) {
     .main-content {
         flex-direction: column;

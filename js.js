@@ -1,11 +1,11 @@
-// Função para adicionar a classe "show" quando o elemento estiver visível no viewport
+
 function revealOnScroll() {
     const reveals = document.querySelectorAll('.content-box');
 
     for (let i = 0; i < reveals.length; i++) {
         const windowHeight = window.innerHeight;
         const revealTop = reveals[i].getBoundingClientRect().top;
-        const revealPoint = 150; // Ponto em que o efeito será ativado
+        const revealPoint = 150; 
 
         if (revealTop < windowHeight - revealPoint) {
             reveals[i].classList.add('show');
@@ -15,7 +15,7 @@ function revealOnScroll() {
     }
 }
 
-// Evento para acionar a função quando o usuário rolar a página
+
 window.addEventListener('scroll', revealOnScroll);
 
 document.getElementById('menuToggle').addEventListener('click', function() {

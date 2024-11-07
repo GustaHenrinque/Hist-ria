@@ -15,33 +15,19 @@
             <p class="subtitle">"A Idade Contemporânea é um tempo histórico que foi inaugurado na Revolução Francesa e dura até os dias atuais. É um período de profundas mudanças."</p>
         </section>
 
-        <!-- Seção Paleolítico -->
         <section class="section paleolitico">
-            <h3>Resumo sobre a Idade Contemporânea
-                </h3>
+            <h3>Resumo sobre a Idade Contemporânea</h3>
             <div class="content">
                 <div class="text">
                     <p>A Idade Contemporânea é o período histórico que começou na Revolução Francesa e se estende até os dias de hoje.
                         As principais características da Idade Contemporânea são: consolidação do capitalismo, desenvolvimento industrial e tecnológico e separação dos poderes do Estado das religiões.
                         "São exemplos de acontecimentos marcantes da Idade Contemporânea na Europa:
-<li>
-    Revolução Francesa;
-</li>
-<li>
-    Revolução Industrial;
-</li>
-<li>
-    Unificação Italiana e Alemã;
-</li>
-<li>
-    Revolução Russa;
-</li>
-<li>
-    grandes guerras mundiais;
-</li>
-<li>
-    Guerra Fria.
-</li>
+<li>Revolução Francesa;</li>
+<li>Revolução Industrial;</li>
+<li>Unificação Italiana e Alemã;</li>
+<li>Revolução Russa;</li>
+<li>grandes guerras mundiais;</li>
+<li>Guerra Fria.</li>
 
 O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um império e, depois, uma república."</p>
                 </div>
@@ -50,21 +36,16 @@ O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um 
                     <p class="caption">A Queda da Bastilha, na Revolução Francesa, que é considerado o marco inicial da Idade Contemporânea.</p>
                 </div>
             </div> 
-            
         </section>
 
-        <!-- Seção Mesolítico e Neolítico juntos -->
         <section class="section mesolitico-neolitico">
             <h3 class="kavoon-title">Características da Idade Contemporânea</h3>
             <div class="content">
                 <div class="image">
                     <img src="img.jpg">
-                   
                 </div>
                 <div class="text">
-                    <p>"A Idade Contemporânea iniciou no ano de 1789, com a Revolução Francesa, e abarca muitos anos, perdurando por séculos, sendo caracterizada por grandes mudanças, revoluções e guerras. No entanto, o que se pode atribuir como sua maior característica é a consolidação do capitalismo em nível global enquanto sistema econômico e político."
-
-                    </p>
+                    <p>"A Idade Contemporânea iniciou no ano de 1789, com a Revolução Francesa, e abarca muitos anos, perdurando por séculos, sendo caracterizada por grandes mudanças, revoluções e guerras. No entanto, o que se pode atribuir como sua maior característica é a consolidação do capitalismo em nível global enquanto sistema econômico e político."</p>
                 </div>
             </div>
 
@@ -75,12 +56,11 @@ O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um 
                 </div>
                 <div class="image">
                     <h4>Proclamação da república</h4>
-                    <img src="proclamacao-republica.webp" alt=>
+                    <img src="proclamacao-republica.webp" alt="">
                 </div>
             </div>
         </section>
 
-        <!-- Divisão do Trabalho na Pré-História -->
         <section class="section trabalho">
             <h3 class="kavoon-title">Proclamação da República no Brasil</h3>
             <p>A partir da República, o Brasil contemporâneo foi marcado pela:</p>
@@ -97,35 +77,23 @@ O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um 
                 <li>Governo Lula, simbolizando o retorno do Partido dos Trabalhadores (2023).</li>
             </ul>
         </section>
-        
-        
-
     </div>
+
     <div class="videos">
-        
-        
-        
         <div class="video">
             <h4>Resumo Idade Contemporânea</h4>
             <iframe src="https://www.youtube.com/embed/D25cxMBC2qk?si=ReCGecTakORiMcvs" frameborder="0" allowfullscreen></iframe>
         </div>
-        
-        
-        
+
         <div class="video">
             <h4>Questões</h4>
             <iframe src="https://www.youtube.com/embed/6LJYNMDwJaE?si=Y-5vCI49ETpIWkGb" frameborder="0" allowfullscreen></iframe>
         </div>
+
         <div class="video">
             <h4></h4>
             <iframe src="https://www.youtube.com/embed/q7E4XrfGGnE?si=6r4UUvesOWaYol0m" frameborder="0" allowfullscreen></iframe>
         </div>
-        
-        
-        
-    
-</div>
-
     </div>
 </body>
 </html>

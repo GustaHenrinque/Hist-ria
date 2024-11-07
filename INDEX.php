@@ -1,11 +1,4 @@
 <?php
-session_start();
-
-if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] !== TRUE) {
-    // Redireciona para a página de login se o usuário não estiver autenticado
-    header('Location: login.php');
-    exit; // Encerra o script para evitar execução do restante do código
-}
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -13,8 +6,8 @@ if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] !== TRUE) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Períodos Históricos</title>
-    <link rel="stylesheet" href="css.css"> <!-- Arquivo CSS -->
-    <script src="js.js" defer></script> <!-- Arquivo JS com defer -->
+    <link rel="stylesheet" href="css.css"> 
+    <script src="js.js" defer></script> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
@@ -33,6 +26,10 @@ if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] !== TRUE) {
 
         <div class="menu-toggle" id="menuToggle">
             <span>☰</span>
+        </div>
+
+        <div class="login-area">
+            <a href="login.php" class="btn-login">Login</a>
         </div>
     </div>
 </header>

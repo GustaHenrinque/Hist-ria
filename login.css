@@ -1,4 +1,3 @@
-/* Estilo geral */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,7 +15,7 @@ body {
 }
 
 .login-box {
-    width: 30%; /* Largura da barra de login */
+    width: 30%; 
     height: 100%;
     background-color: black;
     color: white;
@@ -24,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-right: 2px solid #000000; /* Borda à direita da caixa de login */
+    border-right: 2px solid #000000; 
 }
 
 .login-box h1 {
@@ -34,58 +33,58 @@ body {
 }
 
 .input-container {
-    margin-bottom: 15px; /* Espaço entre os campos de entrada */
+    margin-bottom: 15px; 
 }
 
 label {
     margin-bottom: 5px;
     padding: 5px;
-    display: block; /* Garante que o label ocupe uma linha inteira */
+    display: block; 
 }
 
 input[type="text"],
 input[type="password"] {
-    padding: 10px; /* Aumentando o padding para um visual mais espaçado */
-    border: 2px solid #2FA8FF; /* Cor das bordas dos campos de entrada */
-    border-radius: 20px; /* Bordas arredondadas */
-    color: white; /* Cor do texto dentro dos campos */
-    background-color: black; /* Fundo preto para os campos de entrada */
-    width: 100%; /* Faz com que os campos tenham uma largura total */
-    margin-top: 10px; /* Espaço acima do campo de entrada */
-    outline: none; /* Remove o contorno */
-    transition: border-color 0.3s ease; /* Transição suave para o foco */
+    padding: 10px;
+    border: 2px solid #2FA8FF;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
 }
 
 input[type="text"]:focus,
 input[type="password"]:focus {
-    border-color: #1c7a9c; /* Muda a cor da borda ao focar */
+    border-color: #1c7a9c;
 }
 
 button {
-    background-color: #2FA8FF; /* Cor do botão */
+    background-color: #2FA8FF;
     border: none;
-    border-radius: 10px; /* Bordas totalmente arredondadas para deixar o botão redondo */
+    border-radius: 10px;
     color: white;
     cursor: pointer;
-    width: 100%; /* Largura do botão */
-    height: 30px; /* Altura do botão */
+    width: 100%;
+    height: 30px;
     text-align: center;
-    transition: background-color 0.3s ease, transform 0.2s; /* Transição suave para o hover */
+    transition: background-color 0.3s ease, transform 0.2s;
 }
 
 button:hover {
-    background-color: #1c7a9c; /* Cor do botão ao passar o mouse */
-    transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
+    background-color: #1c7a9c;
+    transform: scale(1.1);
 }
 
 .button-container {
-    margin-top: 10px; /* Espaço acima do traço */
-    text-align: center; /* Centraliza o traço */
+    margin-top: 10px;
+    text-align: center;
 }
 
 .image-box {
-    flex: 1; /* A imagem ocupa o espaço restante */
-    background-image: url('img/loginhistoria2.png'); /* URL da imagem de fundo */
-    background-size: cover; /* A imagem cobre toda a área */
-    background-position: center; /* A imagem é centralizada */
+    flex: 1;
+    background-image: url('img/loginhistoria2.png');
+    background-size: cover;
+    background-position: center;
 }

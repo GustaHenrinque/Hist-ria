@@ -1,9 +1,5 @@
 <?php
-if ($_SESSION['autenticado'] == TRUE) {
-    header('Location: index.php');
-} else {
-    header('Location: login.php');
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -43,7 +39,7 @@ if ($_SESSION['autenticado'] == TRUE) {
             <p class="subtitle">A Pré-História é dividida entre os períodos Paleolítico, Mesolítico e Neolítico.</p>
         </section>
 
-        <!-- Seção Paleolítico -->
+   
         <section class="section paleolitico">
             <h3>Paleolítico</h3>
             <div class="content">
@@ -66,7 +62,7 @@ if ($_SESSION['autenticado'] == TRUE) {
             </div>
         </section>
 
-        <!-- Seção Mesolítico e Neolítico juntos -->
+
         <section class="section mesolitico-neolitico">
             <h3 class="kavoon-title">Mesolítico e Neolítico</h3>
             <div class="content">
@@ -95,7 +91,7 @@ if ($_SESSION['autenticado'] == TRUE) {
             </div>
         </section>
 
-        <!-- Divisão do Trabalho na Pré-História -->
+   
         <section class="section trabalho">
             <h3 class="kavoon-title">Divisão do trabalho na Pré-História</h3>
             <p>
@@ -104,7 +100,7 @@ if ($_SESSION['autenticado'] == TRUE) {
             </p>
         </section>
 
-        <!-- Seção Arte na Pré-História -->
+ 
         <section class="section arte">
             <h3 class="kavoon-title">Arte na Pré-História</h3>
             <div class="content">

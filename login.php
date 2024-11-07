@@ -6,28 +6,28 @@ $username = "root";
 $password = "";
 $dbname = "historia";
 
-// Conectar ao banco de dados
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Conexão falhou: " . $conn->connect_error);
 }
 
-// Verificar se o formulário foi enviado
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo "Deu certo!";
 
-    // Receber dados do formulário
+    
     $email = $_POST['username'];
     $senha = $_POST['password'];
     $tipo = $_POST['tipo'];
 
-    // Validar email
+ 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo "<script>alert('Email inválido.');</script>";
         exit;
     }
 
-    // Consultar o banco de dados com base no tipo de usuário
+  
     $stmt = $conn->prepare("SELECT * FROM " . ($tipo === 'professor' ? 'professores' : 'alunos') . " WHERE email=?");
     $stmt->bind_param("s", $email);
     $stmt->execute();
@@ -40,19 +40,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['nome'] = $user['nome'];
             $_SESSION['tipo'] = $tipo;
             $_SESSION['autenticado'] = TRUE;
-            // Login bem-sucedido, redireciona para a página desejada
+           
             header("Location: index.php");
             exit;
         } else {
-            // Mensagem de erro
+           
             echo "<script>alert('Usuário ou senha incorretos.');</script>";
         }
     } else {
-        // Mensagem de erro
+        
         echo "<script>alert('Usuário não encontrado.');</script>";
     }
 
-    $stmt->close(); // Fechar statement
+    $stmt->close(); 
 }
 
 $conn->close();
@@ -87,7 +87,7 @@ $conn->close();
                 <button type="submit">Entrar</button>
             </form> <br>
 
-            <!-- Botão Cadastre-se -->
+   
             <p>Não tem uma conta?</p> <br>
             <button type="button" onclick="window.location.href='login_cadastro.php';">Cadastre-se</button>
         </div>
