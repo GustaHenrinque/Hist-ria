@@ -23,9 +23,6 @@
                         <li><a href="glossario.php">Glossário Histórico</a></li>
 
                         <li><a href="dev.php">Devs</a></li>
-
-
-                        <li><a href="dev.php">Desenvolvedores</a></li>
                     </ul>
                     
         </nav>

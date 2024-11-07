@@ -43,16 +43,7 @@
         <h4>Aprenda mais sobre<br> Períodos <span class="highlight">HISTÓRICOS!</span></h4>
         <p>Explore o passado com a melhor comunidade<br> de história do país.</p>
         <a href="periodos.php" class="cta-button" id="saibaMaisBtn">SAIBA MAIS</a>
-
+    </div> 
 </section>
-
-
-<script>
-    document.getElementById('saibaMaisBtn').addEventListener('click', function(event) {
-        event.preventDefault();  
-        window.location.href = "periodos.php";  
-    });
-</script>
-
 </body>
 </html>

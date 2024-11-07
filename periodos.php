@@ -1,13 +1,4 @@
 
-<?php
-
-if ($_SESSION['autenticado'] != TRUE) {
-    header('Location: index.php');
-} else {
-    header('Location: login.php');
-}
-?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -20,13 +11,6 @@ if ($_SESSION['autenticado'] != TRUE) {
 
 </head>
 <body>
-
-
-<<<<<<< HEAD
-    <!-- Header atualizado -->
-=======
-   
->>>>>>> 96bc1c37720789c8f8906bd3a2227155a8d92bfa
 <header>
     <div class="container">
 
