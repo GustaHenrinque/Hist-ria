@@ -1,39 +1,21 @@
-<?php
-<<<<<<< HEAD
-if ($_SESSION['autenticado'] != TRUE) {
-    header('Location: index.php');
-} else {
-    header('Location: login.php');
-}
-=======
 
->>>>>>> 088968e4b3810f26c88a691305938628e7848259
-?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Períodos Históricos</title>
-    <link rel="stylesheet" href="periodos.css"> 
-    <script src="js.js" defer></script> 
+    <link rel="stylesheet" href="periodos.css"> <!-- Arquivo CSS -->
+    <script src="js.js" defer></script> <!-- Arquivo JS com defer -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 <body>
 
+    <!-- Header atualizado -->
+<header>
     <div class="container">
         <nav class="sidebar" id="sidebar">
-
-            <ul>
-                <li><a href="INDEX.php">Início</a></li>
-                <li><a href="pre-historia.php">História Primitiva</a></li>
-                <li><a href="antiga.php">História Antiga</a></li>
-                <li><a href="media.php">Idade Média</a></li>
-                <li><a href="moderna.php">Idade Moderna</a></li>
-                <li><a href="contempo.php">Idade Contemporânea</a></li>
-            </ul>
-
         <ul>
                         <li><a href="INDEX.php">Início</a></li>
                         <li><a href="pre-historia.php">História Primitiva</a></li>
@@ -42,10 +24,9 @@ if ($_SESSION['autenticado'] != TRUE) {
                         <li><a href="moderna.php">Idade Moderna</a></li>
                         <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
-                        <li><a href="dev.php">Desenvolvedores</a></li>
+                        <li><a href="dev.php">Devs</a></li>
 
                     </ul>
-
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -84,8 +65,8 @@ if ($_SESSION['autenticado'] != TRUE) {
             <p>A Idade Antiga é o período das grandes civilizações, como os egípcios, gregos e romanos. Durante essa era, surgiram as primeiras cidades e impérios, além de grandes avanços na arte e na ciência.</p>
 
          
-            <a href="antiga.php" class="button" onclick="window.location.href='antiga.php'; return false;">SABER MAIS</a>
 
+            <a href="antiga.php" class="button">SABER MAIS</a>
 
         </div>
         <div class="content-box reveal">
@@ -114,7 +95,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             <p>A Idade Contemporânea abrange do final do século XVIII até os dias atuais, incluindo revoluções industriais, guerras mundiais e inovações tecnológicas que moldaram o mundo moderno.</p>
 
 
-            <a href="contempo.php" class="button">SABER MAIS</a>
+            <a href="pre-historia.php" class="button">SABER MAIS</a>
 
         </div>
     </section>
