@@ -43,23 +43,11 @@
         <h4>Aprenda mais sobre<br> Períodos <span class="highlight">HISTÓRICOS!</span></h4>
         <p>Explore o passado com a melhor comunidade<br> de história do país.</p>
 
-        <a class="cta-button" id="saibaMaisBtn">SAIBA MAIS</a>
-
+        <a href="periodos.php" class="cta-button" id="saibaMaisBtn">SAIBA MAIS</a>
     </div>
 </section>
 
-<script>
-   document.getElementById('saibaMaisBtn').addEventListener('click', function() {
-    console.log("O botão foi clicado!");  
-    window.location.href = "periodos.php";  
-});
 
-console.log("O arquivo js.js foi carregado!");
-</script>
-<script src="js.js"></script>  
-
-
-        <a href="periodos.php" class="cta-button" id="saibaMaisBtn">SAIBA MAIS</a>
     </div> 
 </section>
 
