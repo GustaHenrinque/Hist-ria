@@ -6,8 +6,37 @@
     <title>Pré-História</title>
     <link rel="stylesheet" href="contempo.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400&display=swap" rel="stylesheet">
+    <script src="js.js" defer></script>
 </head>
 <body>
+<header>
+    <div class="barra">
+        <nav class="sidebar" id="sidebar">
+        <ul>
+                        <li><a href="INDEX.php">Início</a></li>
+                        <li><a href="pre-historia.php">História Primitiva</a></li>
+                        <li><a href="antiga.php">História Antiga</a></li>
+                        <li><a href="media.php">Idade Média</a></li>
+                        <li><a href="moderna.php">Idade Moderna</a></li>
+                        <li><a href="contempo.php">Idade Contemporânea</a></li>
+                        <li><a href="glossario.php">Glossário Histórico</a></li>
+
+                        <li><a href="dev.php">Devs</a></li>
+
+
+                        <li><a href="dev.php">Desenvolvedores</a></li>
+
+                    </ul>
+                    
+        </nav>
+
+        <div class="menu-toggle" id="menuToggle">
+            <span>☰</span>
+        </div>
+
+    
+        </div>
+</header>
     <div class="container">
         
         <section class="header">

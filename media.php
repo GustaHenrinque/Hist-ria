@@ -19,14 +19,14 @@
                         <li><a href="antiga.php">História Antiga</a></li>
                         <li><a href="media.php">Idade Média</a></li>
                         <li><a href="moderna.php">Idade Moderna</a></li>
-                        <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
+                        <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
-<<<<<<< HEAD
+
                         <li><a href="dev.php">Devs</a></li>
 
-=======
+
                         <li><a href="dev.php">Desenvolvedores</a></li>
->>>>>>> 53802c05c02640d284e4b34cbb979a11dea93001
+
                     </ul>
                     
         </nav>
@@ -44,7 +44,7 @@
             <p class="subtitle">A Idade Média, ou "Era das Trevas", foi um período entre a queda do Império Romano e o início da Idade Moderna, marcado pelo sistema feudal, influência da Igreja e importantes eventos históricos.</p>
         </section>
 
-        <!-- Seção sobre as Características da Idade Média -->
+     
         <section class="section idade-media">
             <h3>Características da Idade Média</h3>
             <div class="content">
@@ -59,7 +59,7 @@
             </div>
         </section>
 
-        <!-- Seção sobre o Sistema Feudal -->
+        
         <section class="section feudalismo">
             <h3 class="kavoon-title">Sistema Feudal</h3>
             <div class="content">
@@ -74,7 +74,7 @@
             </div>
         </section>
 
-        <!-- Seção sobre as Cruzadas -->
+       
         <section class="section cruzadas">
             <h3>Cruzadas</h3>
             <div class="content">
@@ -89,7 +89,7 @@
             </div>
         </section>
 
-        <!-- Seção sobre a Igreja Católica -->
+       
         <section class="section igreja">
             <h3>Influência da Igreja Católica</h3>
             <div class="content">
@@ -104,7 +104,7 @@
             </div>
         </section>
 
-        <!-- Seção sobre a Arte Medieval -->
+        
         <section class="section arte">
             <h3>Arte na Idade Média</h3>
             <div class="content">

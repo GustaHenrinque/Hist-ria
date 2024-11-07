@@ -18,7 +18,7 @@
                         <li><a href="antiga.php">História Antiga</a></li>
                         <li><a href="media.php">Idade Média</a></li>
                         <li><a href="moderna.php">Idade Moderna</a></li>
-                        <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
+                        <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
                         <li><a href="dev.php">Desenvolvedores</a></li>
 
