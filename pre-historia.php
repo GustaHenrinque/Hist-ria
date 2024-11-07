@@ -1,14 +1,6 @@
 
-<?php
-
-if ($_SESSION['autenticado'] != TRUE) {
-    header('Location: index.php');
-} else {
-    header('Location: login.php');
-}
 
 
-?>
 
 
 <!DOCTYPE html>
