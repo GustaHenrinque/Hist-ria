@@ -26,7 +26,6 @@
 
 
                         <li><a href="dev.php">Desenvolvedores</a></li>
-
                     </ul>
                     
         </nav>

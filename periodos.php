@@ -1,19 +1,32 @@
 
+<?php
+
+if ($_SESSION['autenticado'] != TRUE) {
+    header('Location: index.php');
+} else {
+    header('Location: login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Períodos Históricos</title>
-    <link rel="stylesheet" href="periodos.css"> <!-- Arquivo CSS -->
-    <script src="js.js" defer></script> <!-- Arquivo JS com defer -->
+    <link rel="stylesheet" href="periodos.css">
+    <script src="js.js" defer></script> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 <body>
 
 
+<<<<<<< HEAD
     <!-- Header atualizado -->
+=======
+   
+>>>>>>> 96bc1c37720789c8f8906bd3a2227155a8d92bfa
 <header>
     <div class="container">
 
