@@ -32,7 +32,7 @@
         </div>
 
         <div class="login-area">
-            <a href="login.php" class="btn-login">Login</a>
+            <a href="login.php" class="btn-login">Entrar</a>
         </div>
     </div>
 </header>
