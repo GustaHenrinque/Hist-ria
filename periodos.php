@@ -12,9 +12,13 @@
 </head>
 <body>
 
+<<<<<<< HEAD
     <!-- Header atualizado -->
 <header>
     <div class="container">
+=======
+<div class="container">
+>>>>>>> 53802c05c02640d284e4b34cbb979a11dea93001
         <nav class="sidebar" id="sidebar">
         <ul>
                         <li><a href="INDEX.php">Início</a></li>
@@ -25,8 +29,13 @@
                         <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
                         <li><a href="dev.php">Devs</a></li>
+<<<<<<< HEAD
 
                     </ul>
+=======
+                    </ul>
+            <img src="./img/png.png" alt="Imagem da Idade Primitiva">
+>>>>>>> 53802c05c02640d284e4b34cbb979a11dea93001
         </nav>
 
         <div class="menu-toggle" id="menuToggle">

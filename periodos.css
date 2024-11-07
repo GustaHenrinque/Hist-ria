@@ -58,6 +58,11 @@ header {
     transition: left 0.3s ease;
     z-index: 1001;
 }
+.sidebar img {
+    max-width: 100%;  
+    height: auto;    
+    margin-bottom: 15px;  
+}
 
 .sidebar.active {
     left: 0;
