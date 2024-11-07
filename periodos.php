@@ -16,6 +16,7 @@
 
     <div class="container">
         <nav class="sidebar" id="sidebar">
+
             <ul>
                 <li><a href="INDEX.php">Início</a></li>
                 <li><a href="pre-historia.php">História Primitiva</a></li>
@@ -24,6 +25,19 @@
                 <li><a href="moderna.php">Idade Moderna</a></li>
                 <li><a href="contempo.php">Idade Contemporânea</a></li>
             </ul>
+
+        <ul>
+                        <li><a href="INDEX.php">Início</a></li>
+                        <li><a href="pre-historia.php">História Primitiva</a></li>
+                        <li><a href="antiga.php">História Antiga</a></li>
+                        <li><a href="media.php">Idade Média</a></li>
+                        <li><a href="moderna.php">Idade Moderna</a></li>
+                        <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
+                        <li><a href="glossario.php">Glossário Histórico</a></li>
+                        <li><a href="dev.php">Devs</a></li>
+
+                    </ul>
+
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -62,8 +76,8 @@
             <p>A Idade Antiga é o período das grandes civilizações, como os egípcios, gregos e romanos. Durante essa era, surgiram as primeiras cidades e impérios, além de grandes avanços na arte e na ciência.</p>
 
          
+            <a href="antiga.php" class="button" onclick="window.location.href='antiga.php'; return false;">SABER MAIS</a>
 
-            <a href="antiga.php" class="button">SABER MAIS</a>
 
         </div>
         <div class="content-box reveal">
