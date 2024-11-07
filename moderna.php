@@ -7,8 +7,7 @@
     <title>Período da Idade Moderna</title>
     <link rel="stylesheet" href="moderna.css">
     <script src="js.js" defer></script>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400&display=swap" rel="stylesheet">
-</head>
+    
 <body>
 <header>
     <div class="barra">
@@ -39,22 +38,21 @@
             <p class="subtitle">A Idade Moderna, que se estendeu entre os séculos XV e XVIII, foi marcada pelo Renascimento, avanços científicos, expansão marítima e o início de estados centralizados.</p>
         </section>
 
-        <!-- Seção sobre o Contexto da Idade Moderna -->
+
         <section class="section idade-moderna">
             <h3>Contexto Histórico</h3>
             <div class="content">
                 <div class="text">
-                    <p>A Idade Moderna inicia-se com a queda de Constantinopla em 1453 e estende-se até o final do século XVIII, com a Revolução Francesa em 1789. Este período foi caracterizado pelo desenvolvimento de novas formas de pensar e organizar a sociedade, impulsionado pelo Renascimento cultural e científico, a expansão marítima e o aumento do poder centralizado dos monarcas.</p>
-                    <p>Entre os fatores que impulsionaram essa época estão o declínio do sistema feudal, a ascensão da burguesia e o fortalecimento das monarquias absolutistas. As grandes navegações levaram à descoberta de novos continentes e ao início do colonialismo, o que resultou em trocas culturais e comerciais significativas entre o Oriente e o Ocidente.</p>
+                    <p>A Idade Moderna, que vai da queda de Constantinopla em 1453 até a Revolução Francesa em 1789, foi marcada por transformações significativas na sociedade. Esse período foi impulsionado pelo Renascimento cultural e científico, pela expansão marítima e pelo fortalecimento das monarquias absolutistas. O declínio do sistema feudal e a ascensão da burguesia também desempenharam papéis importantes. As grandes navegações levaram à descoberta de novos continentes e ao início do colonialismo, promovendo intensas trocas culturais e comerciais entre o Oriente e o Ocidente, o que contribuiu para o desenvolvimento da economia e da ciência na Europa.</p>
                 </div>
                 <div class="image">
-                    <img src="img/descobrimentos.png" alt="Expansão Marítima">
+                    <img src="img/barcos.jpg" alt="Expansão Marítima">
                     <p class="caption">As Grandes Navegações foram fundamentais para a expansão do comércio e cultura europeia no mundo.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Seção sobre o Renascimento -->
+       
         <section class="section renascimento">
             <h3>Renascimento Cultural e Científico</h3>
             <div class="content">
@@ -63,13 +61,13 @@
                     <p>Além da arte, o Renascimento estimulou o pensamento crítico e a observação científica. A invenção da imprensa por Gutenberg foi um marco, pois facilitou a disseminação de ideias e o aumento do acesso ao conhecimento, ampliando o impacto desse movimento pela Europa.</p>
                 </div>
                 <div class="image">
-                    <img src="img/renascimento.png" alt="Arte Renascentista">
+                    <img src="img/artes.jpg" alt="Arte Renascentista">
                     <p class="caption">Arte renascentista, com foco no realismo e na anatomia humana, trouxe nova visão da condição humana.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Seção sobre o Absolutismo Monárquico -->
+        
         <section class="section absolutismo">
             <h3>Absolutismo Monárquico</h3>
             <div class="content">
@@ -78,13 +76,13 @@
                     <p>O absolutismo foi sustentado pelo mercantilismo, uma política econômica que incentivava a acumulação de riquezas e o monopólio do comércio exterior. Esse sistema contribuiu para o aumento das tensões sociais, que eventualmente culminaram nas revoluções burguesas do século XVIII, especialmente a Revolução Francesa.</p>
                 </div>
                 <div class="image">
-                    <img src="img/absolutismo.png" alt="Retrato de Luís XIV">
+                    <img src="img/luis.jpg" alt="Retrato de Luís XIV">
                     <p class="caption">Luís XIV, o “Rei Sol”, símbolo do absolutismo francês e do poder centralizado.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Seção sobre o Iluminismo -->
+       
         <section class="section iluminismo">
             <h3>Iluminismo</h3>
             <div class="content">
@@ -93,13 +91,13 @@
                     <p>As ideias iluministas influenciaram as revoluções que marcaram o final da Idade Moderna, como a Revolução Americana e a Revolução Francesa, que buscavam implantar governos democráticos e o fim dos privilégios de classe.</p>
                 </div>
                 <div class="image">
-                    <img src="img/iluminismo.png" alt="Filósofos do Iluminismo">
+                    <img src="img/genios.jpg" alt="Filósofos do Iluminismo">
                     <p class="caption">Pensadores iluministas defendiam uma sociedade baseada na razão e nos direitos individuais.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Seção sobre a Revolução Científica -->
+       
         <section class="section revolucao-cientifica">
             <h3>Revolução Científica</h3>
             <div class="content">
@@ -108,7 +106,7 @@
                     <p>As descobertas científicas ampliaram o entendimento da física, astronomia e biologia, fornecendo bases para a tecnologia e para o progresso da sociedade. Esse período foi essencial para o desenvolvimento de uma mentalidade científica que valoriza a observação e a comprovação.</p>
                 </div>
                 <div class="image">
-                    <img src="img/revolucao_cientifica.png" alt="Newton e as Leis da Física">
+                    <img src="img/isaac.jpg" alt="Newton e as Leis da Física">
                     <p class="caption">Isaac Newton e as leis do movimento: fundamentos da física moderna.</p>
                 </div>
             </div>

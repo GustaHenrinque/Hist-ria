@@ -24,23 +24,3 @@ document.getElementById('menuToggle').addEventListener('click', function() {
     var sidebar = document.getElementById('sidebar');
     sidebar.classList.toggle('active'); // Alterna a classe 'active' para mostrar ou ocultar a sidebar
 });
-
-// Função para filtrar os termos do glossário conforme o usuário digita na barra de pesquisa
-function filterGlossary() {
-    const input = document.getElementById('searchInput'); // Obtém o campo de entrada
-    const filter = input.value.toLowerCase(); // Obtém o valor digitado e converte para minúsculas
-    const ul = document.getElementById('glossaryList'); // Obtém a lista do glossário
-    const items = ul.getElementsByTagName('li'); // Obtém todos os itens da lista (termos do glossário)
-
-    // Loop para verificar cada item da lista
-    for (let i = 0; i < items.length; i++) {
-        const term = items[i].textContent || items[i].innerText; // Obtém o texto do item (termo)
-        
-        // Verifica se o termo contém o valor digitado
-        if (term.toLowerCase().includes(filter)) {
-            items[i].style.display = ""; // Mostra o item
-        } else {
-            items[i].style.display = "none"; // Oculta o item
-        }
-    }
-}
