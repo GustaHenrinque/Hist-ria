@@ -1,5 +1,5 @@
 <?php
-if ($_SESSION['autenticado'] == TRUE) {
+if ($_SESSION['autenticado'] != TRUE) {
     header('Location: index.php');
 } else {
     header('Location: login.php');
