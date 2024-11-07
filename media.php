@@ -24,8 +24,8 @@
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
                         <li><a href="dev.php">Desenvolvedores</a></li>
-
                     </ul>
+                    
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
