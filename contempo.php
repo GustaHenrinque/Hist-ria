@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pré-História</title>
     <link rel="stylesheet" href="contempo.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400&display=swap" rel="stylesheet">
     <script src="js.js" defer></script>
 </head>
 <body>
