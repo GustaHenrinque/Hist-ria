@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
     $senha = $_POST['senha'];
     $senha_confirmacao = $_POST['senha_confirmacao'];
     $tipo = $_POST['tipo'];
-m
+
     if ($senha !== $senha_confirmacao) {
         echo "<script>alert('As senhas não coincidem.');</script>";
     } else {

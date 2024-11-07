@@ -22,3 +22,24 @@ document.getElementById('menuToggle').addEventListener('click', function() {
     var sidebar = document.getElementById('sidebar');
     sidebar.classList.toggle('active');
 });
+// JavaScript para o botão Back to Top
+document.addEventListener("DOMContentLoaded", function () {
+    const backToTopButton = document.getElementById("backToTop");
+
+    // Mostrar o botão ao rolar para baixo
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 200) {
+            backToTopButton.classList.add("show");
+        } else {
+            backToTopButton.classList.remove("show");
+        }
+    });
+
+    // Rolar suavemente até o topo ao clicar no botão
+    backToTopButton.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});
