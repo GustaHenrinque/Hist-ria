@@ -20,7 +20,7 @@
                         <li><a href="antiga.php">História Antiga</a></li>
                         <li><a href="media.php">Idade Média</a></li>
                         <li><a href="moderna.php">Idade Moderna</a></li>
-                        <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
+                        <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
                         <li><a href="dev.php">Devs</a></li>
                     </ul>
@@ -42,7 +42,7 @@
     <div class="content">
         <h4>Aprenda mais sobre<br> Períodos <span class="highlight">HISTÓRICOS!</span></h4>
         <p>Explore o passado com a melhor comunidade<br> de história do país.</p>
-        <a href="paginas/periodos.php" class="cta-button" id="saibaMaisBtn">SAIBA MAIS</a>
+        <a href="periodos.php" class="cta-button" id="saibaMaisBtn">SAIBA MAIS</a>
 
 </section>
 
