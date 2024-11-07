@@ -6,24 +6,21 @@ $username = "root";
 $password = "";
 $dbname = "historia";
 
-
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Conexão falhou: " . $conn->connect_error);
 }
-
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
     $senha_confirmacao = $_POST['senha_confirmacao'];
-    $tipo = $_POST['tipo'];
-m
+    $tipo = $_POST['tipo'];  // Removido 'm' extra aqui
+
     if ($senha !== $senha_confirmacao) {
         echo "<script>alert('As senhas não coincidem.');</script>";
     } else {
-       
         $senha_hash = password_hash($senha, PASSWORD_DEFAULT);
 
         if ($tipo === 'professor') {
@@ -34,9 +31,7 @@ m
 
         if ($conn->query($sql) === TRUE) {
             echo "<script>alert('Cadastro realizado com sucesso!');</script>";
-           
             header("Location: login.php");
-           
         } else {
             echo "Erro: " . $sql . "<br>" . $conn->error;
         }
