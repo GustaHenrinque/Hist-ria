@@ -1,13 +1,13 @@
 <?php
-<<<<<<< HEAD
+
 if ($_SESSION['autenticado'] != TRUE) {
     header('Location: index.php');
 } else {
     header('Location: login.php');
 }
-=======
 
->>>>>>> 088968e4b3810f26c88a691305938628e7848259
+
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
