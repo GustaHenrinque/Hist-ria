@@ -1,9 +1,13 @@
 <?php
+<<<<<<< HEAD
 if ($_SESSION['autenticado'] != TRUE) {
     header('Location: index.php');
 } else {
     header('Location: login.php');
 }
+=======
+
+>>>>>>> 088968e4b3810f26c88a691305938628e7848259
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -25,9 +29,9 @@ if ($_SESSION['autenticado'] != TRUE) {
                         <li><a href="antiga.php">História Antiga</a></li>
                         <li><a href="media.php">Idade Média</a></li>
                         <li><a href="moderna.php">Idade Moderna</a></li>
-                        <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
+                        <li><a href="contemp.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
-                        <li><a href="dev.php">Devs</a></li>
+                        <li><a href="dev.php">Desenvolvedores</a></li>
 
                     </ul>
         </nav>
@@ -45,7 +49,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             <p class="subtitle">A Idade Moderna, que se estendeu entre os séculos XV e XVIII, foi marcada pelo Renascimento, avanços científicos, expansão marítima e o início de estados centralizados.</p>
         </section>
 
-        <!-- Seção sobre o Contexto da Idade Moderna -->
+       
         <section class="section idade-moderna">
             <h3>Contexto Histórico</h3>
             <div class="content">
@@ -60,7 +64,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             </div>
         </section>
 
-        <!-- Seção sobre o Renascimento -->
+        
         <section class="section renascimento">
             <h3>Renascimento Cultural e Científico</h3>
             <div class="content">
@@ -75,7 +79,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             </div>
         </section>
 
-        <!-- Seção sobre o Absolutismo Monárquico -->
+  
         <section class="section absolutismo">
             <h3>Absolutismo Monárquico</h3>
             <div class="content">
@@ -90,7 +94,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             </div>
         </section>
 
-        <!-- Seção sobre o Iluminismo -->
+
         <section class="section iluminismo">
             <h3>Iluminismo</h3>
             <div class="content">
@@ -105,7 +109,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             </div>
         </section>
 
-        <!-- Seção sobre a Revolução Científica -->
+  
         <section class="section revolucao-cientifica">
             <h3>Revolução Científica</h3>
             <div class="content">

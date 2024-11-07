@@ -6,35 +6,71 @@
 
 body {
     background-color: #f4f4f4;
-    width: 100vw; /* Garante que o site ocupe 100% da largura da janela */
-    overflow-x: hidden; /* Remove a barra de rolagem horizontal, se houver */
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 header {
     position: fixed;
     top: 0;
-    width: 100%; /* Usa 100% da largura da tela para evitar problemas de overflow */
-    padding: 16px 28px; 
+    width: 100%;
+    padding: 35px 30px;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 10;
 }
 
 header a:hover {
-    color: #00bfff; /* Cor do texto ao passar o mouse */
+    color: #00bfff;
 }
+
+.login-area {
+    position: absolute;
+    top: 10px;
+    right: 0; 
+    padding-right: 10px; 
+}
+
+.btn-login {
+    background-color: #00bfff;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #008fbf;
+    transform: translateY(-3px);
+}
+
+.btn-login:active {
+    background-color: #006f8f;
+    transform: translateY(1px);
+}
+
+.btn-login:focus {
+    outline: none;
+    box-shadow: 0 0 5px #00bfff;
+}
+
 
 header a::after {
     content: '';
     display: block;
     width: 0;
     height: 2px;
-    background: #00bfff; /* Sublinhar azul claro */
+    background: #00bfff;
     transition: width 0.3s;
     margin-top: 5px;
 }
 
 header a:hover::after {
-    width: 100%; /* Efeito de sublinhado ao passar o mouse */
+    width: 100%;
 }
 
 .menu {
@@ -84,6 +120,13 @@ header a:hover::after {
     margin-top: 80px;
 }
 
+.sidebar img {
+    max-width: 100%;  
+    height: auto;    
+    margin-bottom: 15px;  
+}
+
+
 .sidebar ul li {
     margin-bottom: 20px;
 }
@@ -96,7 +139,7 @@ header a:hover::after {
 }
 
 .sidebar ul li a:hover {
-    color: #00bfff; /* Cor do texto ao passar o mouse */
+    color: #00bfff;
 }
 
 .sidebar a::after {
@@ -104,13 +147,13 @@ header a:hover::after {
     display: block;
     width: 0;
     height: 2px;
-    background: #00bfff; /* Sublinhar azul claro */
+    background: #00bfff;
     transition: width 0.3s;
     margin-top: 5px;
 }
 
 .sidebar a:hover::after {
-    width: 70%; /* Efeito de sublinhado ao passar o mouse */
+    width: 70%;
 }
 
 .menu-toggle {
@@ -225,7 +268,6 @@ button:hover {
     background-color: #333;
 }
 
-/* Media Query para Responsividade */
 @media (max-width: 768px) {
     .main-content {
         flex-direction: column;

@@ -19,7 +19,7 @@
                         <li><a href="moderna.php">Idade Moderna</a></li>
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
-                        <li><a href="dev.php">Devs</a></li>
+                        <li><a href="dev.php">Desenvolvedores</a></li>
 
                     </ul>
             </nav>
@@ -36,23 +36,23 @@
 
         <div class="team-container">
             <div class="developer" onclick="showInfo('dev1')">
-                <img src="gustavo.JPG" alt="Desenvolvedor 1">
+                <img src="./img/gustavo.JPG" alt="Desenvolvedor 1">
                 <h3>Gustavo Martins</h3>
             </div>
             <div class="developer" onclick="showInfo('dev2')">
-                <img src="kaua.JPG" alt="Desenvolvedor 2">
+                <img src="./img/kaua.JPG" alt="Desenvolvedor 2">
                 <h3>Kauã Souza</h3>
             </div>
             <div class="developer" onclick="showInfo('dev3')">
-                <img src="matheus.JPG" alt="Desenvolvedor 3">
+                <img src="./img/matheus.JPG" alt="Desenvolvedor 3">
                 <h3>Matheus Villar</h3>
             </div>
             <div class="developer" onclick="showInfo('dev4')">
-                <img src="eu.JPG" alt="Desenvolvedor 4">
+                <img src="./img/eu.JPG" alt="Desenvolvedor 4">
                 <h3>Pedro Zocatelli</h3>
             </div>
             <div class="developer" onclick="showInfo('dev5')">
-                <img src="rian.JPG" alt="Desenvolvedor 5">
+                <img src="./img/rian.JPG" alt="Desenvolvedor 5">
                 <h3>Rian Prado</h3>
             </div>
         </div>

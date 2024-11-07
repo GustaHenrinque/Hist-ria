@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['tipo']) || $_SESSION['tipo'] !== 'professor') {
-    header("Location: login.php"); // Redireciona caso não seja um professor
+    header("Location: login.php");
     exit;
 }
 
@@ -15,7 +15,7 @@ if ($conn->connect_error) {
     die("Conexão falhou: " . $conn->connect_error);
 }
 
-// Verificar se o formulário foi enviado
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     foreach ($_POST['conteudos'] as $id => $novoTexto) {
         $stmt = $conn->prepare("UPDATE conteudos SET texto = ? WHERE id = ?");

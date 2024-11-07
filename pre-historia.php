@@ -1,9 +1,13 @@
 <?php
+<<<<<<< HEAD
 if ($_SESSION['autenticado'] != TRUE) {
     header('Location: index.php');
 } else {
     header('Location: login.php');
 }
+=======
+
+>>>>>>> 088968e4b3810f26c88a691305938628e7848259
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -27,7 +31,7 @@ if ($_SESSION['autenticado'] != TRUE) {
                         <li><a href="moderna.php">Idade Moderna</a></li>
                         <li><a href="../contemp/contemp.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
-                        <li><a href="dev.php">Devs</a></li>
+                        <li><a href="dev.php">Desenvolvedores</a></li>
 
                     </ul>
         </nav>
@@ -46,7 +50,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             <p class="subtitle">A Pré-História é dividida entre os períodos Paleolítico, Mesolítico e Neolítico.</p>
         </section>
 
-        <!-- Seção Paleolítico -->
+   
         <section class="section paleolitico">
             <h3>Paleolítico</h3>
             <div class="content">
@@ -69,7 +73,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             </div>
         </section>
 
-        <!-- Seção Mesolítico e Neolítico juntos -->
+
         <section class="section mesolitico-neolitico">
             <h3 class="kavoon-title">Mesolítico e Neolítico</h3>
             <div class="content">
@@ -98,7 +102,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             </div>
         </section>
 
-        <!-- Divisão do Trabalho na Pré-História -->
+   
         <section class="section trabalho">
             <h3 class="kavoon-title">Divisão do trabalho na Pré-História</h3>
             <p>
@@ -107,7 +111,7 @@ if ($_SESSION['autenticado'] != TRUE) {
             </p>
         </section>
 
-        <!-- Seção Arte na Pré-História -->
+ 
         <section class="section arte">
             <h3 class="kavoon-title">Arte na Pré-História</h3>
             <div class="content">
