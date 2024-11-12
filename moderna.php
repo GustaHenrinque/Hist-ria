@@ -12,7 +12,7 @@
 <header>
     <div class="barra">
         <nav class="sidebar" id="sidebar">
-        <ul>
+                    <ul>
                         <li><a href="INDEX.php">Início</a></li>
                         <li><a href="pre-historia.php">História Primitiva</a></li>
                         <li><a href="antiga.php">História Antiga</a></li>
@@ -21,8 +21,8 @@
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
                         <li><a href="dev.php">Devs</a></li>
-
                     </ul>
+                    <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -113,7 +113,7 @@
         </section>
     </div>
 
-    <div class="videos">
+    <div class="video-container">
         <div class="video">
             <h4>Renascimento e o Humanismo</h4>
             <iframe src="https://www.youtube.com/embed/video-renascimento" frameborder="0" allowfullscreen></iframe>

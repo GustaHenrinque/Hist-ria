@@ -11,7 +11,7 @@
 <header>
     <div class="barra">
         <nav class="sidebar" id="sidebar">
-        <ul>
+                    <ul>
                         <li><a href="INDEX.php">Início</a></li>
                         <li><a href="pre-historia.php">História Primitiva</a></li>
                         <li><a href="antiga.php">História Antiga</a></li>
@@ -21,7 +21,7 @@
                         <li><a href="glossario.php">Glossário Histórico</a></li>
                         <li><a href="dev.php">Devs</a></li>
                     </ul>
-                    
+                    <img id="" src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -41,22 +41,22 @@
         <section class="section paleolitico">
             <h3>Resumo sobre a Idade Contemporânea</h3>
             <div class="content">
-                <div class="text">
+                <div class="contempo">
                     <p>A Idade Contemporânea é o período histórico que começou na Revolução Francesa e se estende até os dias de hoje.
                         As principais características da Idade Contemporânea são: consolidação do capitalismo, desenvolvimento industrial e tecnológico e separação dos poderes do Estado das religiões.
                         "São exemplos de acontecimentos marcantes da Idade Contemporânea na Europa:
-<li>Revolução Francesa;</li>
-<li>Revolução Industrial;</li>
-<li>Unificação Italiana e Alemã;</li>
-<li>Revolução Russa;</li>
-<li>grandes guerras mundiais;</li>
-<li>Guerra Fria.</li>
+                    <li>Revolução Francesa;</li>
+                    <li>Revolução Industrial;</li>
+                    <li>Unificação Italiana e Alemã;</li>
+                    <li>Revolução Russa;</li>
+                    <li>grandes guerras mundiais;</li>
+                    <li>Guerra Fria.</li>
 
-O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um império e, depois, uma república."</p>
-                </div>
-                <div class="image">
-                    <img src="queda.webp" alt="Queda da Bastilha">
-                    <p class="caption">A Queda da Bastilha, na Revolução Francesa, que é considerado o marco inicial da Idade Contemporânea.</p>
+                    O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um império e, depois, uma república."</p>
+                    <div class="image">
+                        <img src="queda.webp" alt="Queda da Bastilha">
+                        <p class="caption">A Queda da Bastilha, na Revolução Francesa, que é considerado o marco inicial da Idade Contemporânea.</p>
+                    </div>
                 </div>
             </div> 
         </section>
@@ -66,9 +66,9 @@ O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um 
             <div class="content">
                 <div class="image">
                     <img src="img.jpg">
-                </div>
-                <div class="text">
-                    <p>"A Idade Contemporânea iniciou no ano de 1789, com a Revolução Francesa, e abarca muitos anos, perdurando por séculos, sendo caracterizada por grandes mudanças, revoluções e guerras. No entanto, o que se pode atribuir como sua maior característica é a consolidação do capitalismo em nível global enquanto sistema econômico e político."</p>
+                    <div class="text">
+                        <p>"A Idade Contemporânea iniciou no ano de 1789, com a Revolução Francesa, e abarca muitos anos, perdurando por séculos, sendo caracterizada por grandes mudanças, revoluções e guerras. No entanto, o que se pode atribuir como sua maior característica é a consolidação do capitalismo em nível global enquanto sistema econômico e político."</p>
+                    </div>
                 </div>
             </div>
 
@@ -76,10 +76,10 @@ O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um 
                 <div class="text">
                     <h4>Brasil na Idade Contemporânea</h4>
                     <p>Com tantas mudanças acontecendo no mundo todo na Idade Contemporânea, no Brasil não poderia ser diferente. Quando esse período começou, ainda estávamos no regime colonial, ou seja, éramos uma colônia portuguesa de exploração, e sequer havia nos brasileiros um sentimento de território-nação. Posteriormente, muitos anos e fatos depois, passamos pela independência e nos tornamos uma monarquia.</p>
-                </div>
-                <div class="image">
-                    <h4>Proclamação da república</h4>
-                    <img src="proclamacao-republica.webp" alt="">
+                    <div class="image">
+                        <h4>Proclamação da república</h4>
+                        <img src="proclamacao-republica.webp" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -102,7 +102,7 @@ O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um 
         </section>
     </div>
 
-    <div class="videos">
+    <div class="video-container">
         <div class="video">
             <h4>Resumo Idade Contemporânea</h4>
             <iframe src="https://www.youtube.com/embed/D25cxMBC2qk?si=ReCGecTakORiMcvs" frameborder="0" allowfullscreen></iframe>
