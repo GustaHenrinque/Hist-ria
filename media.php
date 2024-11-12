@@ -105,4 +105,33 @@
                     <p>A pintura medieval frequentemente ilustrava cenas bíblicas e santos, e os manuscritos iluminados, ricamente decorados, eram outra forma importante de expressão artística. A arte gótica nas catedrais representava a ascensão da espiritualidade, com suas torres altas e vitrais que enchiam os templos de luz. Esses elementos artísticos não apenas embelezavam os edifícios, mas também eram usados para educar a população, que muitas vezes não sabia ler. Assim, a arte servia como uma poderosa ferramenta de comunicação da fé cristã.</p>
                 </div>
                 <div class="image">
-                    <img src="img/arquitetura 2.png" alt
+                    <img src="img/arquitetura 2.png" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="videos">
+        <div class="video">
+            <h4>A Civilização Mesopotâmica</h4>
+            <iframe src="https://www.youtube.com/embed/video-mesopotamia" frameborder="0" allowfullscreen></iframe>
+        </div>
+    
+        <div class="video">
+            <h4>Civilização Egípcia</h4>
+            <iframe src="https://www.youtube.com/embed/video-egito" frameborder="0" allowfullscreen></iframe>
+        </div>
+    
+        <div class="video">
+            <h4>Grécia Antiga e sua Influência</h4>
+            <iframe src="https://www.youtube.com/embed/video-grecia" frameborder="0" allowfullscreen></iframe>
+        </div>
+    
+        <div class="video">
+            <h4>Roma e seu Império</h4>
+            <iframe src="https://www.youtube.com/embed/video-roma" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
+        
+    

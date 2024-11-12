@@ -116,7 +116,7 @@
         </section>
     </div>
 
-    <div class="video-container">
+    <div class="videos">
         <div class="video">
             <h4>Renascimento e o Humanismo</h4>
             <iframe src="https://www.youtube.com/embed/video-renascimento" frameborder="0" allowfullscreen></iframe>
