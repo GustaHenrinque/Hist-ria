@@ -100,7 +100,7 @@
 
     </div>
     
-    <div class="video-container">
+    <div class="videos">
         <div class="video">
             <h4>A Civilização Mesopotâmica</h4>
             <iframe src="https://www.youtube.com/embed/video-mesopotamia" frameborder="0" allowfullscreen></iframe>
