@@ -20,7 +20,7 @@
                 <li><a href="moderna.php">Idade Moderna</a></li>
                 <li><a href="contempo.php">Idade Contemporânea</a></li>
                 <li><a href="glossario.php">Glossário Histórico</a></li>
-                <li><a href="dev.php">Devs</a></li>
+               
             </ul>
         </nav>
         <div class="menu-toggle" id="menuToggle">
