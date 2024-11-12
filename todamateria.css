@@ -51,7 +51,7 @@ header {
     z-index: 1001;
 }
 
-.sidebar img{
+.sidebar img {
     max-width: 100%;  
     height: auto;    
     margin-bottom: 15px;  
@@ -298,47 +298,6 @@ p {
       flex: 1 1 48%;
       max-width: 48%;
       box-sizing: border-box;
-    }
-
-    .content text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .pedra {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .pedra img {
-        width: 100%;
-        max-width: 200px;
-        margin-bottom: 10px;
-    }
-    
-    .text {
-        padding: 10px;
-    }
-
-    .mesolitico-neolitico {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .mesolitico-neolitico .image img {
-        width: 100%;
-        max-width: 200px;
-        margin-bottom: 10px;
-    }
-    
-    .text {
-        padding: 10px;
     }
   }
   
