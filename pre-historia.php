@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pré-História</title>
-    <link rel="stylesheet" href="todamateria.css">
+    <link rel="stylesheet" href="moderna.css">
     <script src="js.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400&display=swap" rel="stylesheet">
 </head>
@@ -39,7 +39,7 @@
             <p class="subtitle">A Pré-História é dividida entre os períodos Paleolítico, Mesolítico e Neolítico.</p>
         </section>
 
-        <section class="section paleolitico">
+        <section class="section idade-moderna">
             <h3>Paleolítico</h3>
             <div class="content">
                 <div class="pedra">
@@ -53,7 +53,7 @@
            
         </section>
 
-        <section class="section mesolitico-neolitico">
+        <section class="section renascimento">
             <h3 class="kavoon-title">Mesolítico e Neolítico</h3>
             <div class="content">
                 <div class="image">
