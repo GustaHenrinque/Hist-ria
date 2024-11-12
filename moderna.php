@@ -116,22 +116,26 @@
     <div class="videos">
         <div class="video">
             <h4>Renascimento e o Humanismo</h4>
-            <iframe src="https://www.youtube.com/embed/video-renascimento" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rhlG6PvpuTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     
         <div class="video">
             <h4>O Absolutismo e o Rei Sol</h4>
-            <iframe src="https://www.youtube.com/embed/video-absolutismo" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/v-UcCkOKUbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     
         <div class="video">
             <h4>Ideias Iluministas</h4>
-            <iframe src="https://www.youtube.com/embed/video-iluminismo" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BWMoIJeCurY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     
         <div class="video">
             <h4>Avanços da Revolução Científica</h4>
-            <iframe src="https://www.youtube.com/embed/video-revolucao-cientifica" frameborder="0" allowfullscreen></iframe>
+            <<iframe width="560" height="315" src="https://www.youtube.com/embed/VO8mCBrCADU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     </div>
     
