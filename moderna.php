@@ -21,7 +21,7 @@
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
 <<<<<<< HEAD
-                        <li><a href="dev.php">Devs</a></li>
+                        
 =======
                         
 
