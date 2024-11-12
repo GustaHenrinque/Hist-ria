@@ -111,23 +111,27 @@
         </section>
         <div class="videos">
         <div class="video">
-            <h4>A Civilização Mesopotâmica</h4>
-            <iframe src="https://www.youtube.com/embed/video-mesopotamia" frameborder="0" allowfullscreen></iframe>
+            <h4>Idade Média</h4>
+            <iframe src="https://www.youtube.com/embed/xYRsIQT-Qmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     
         <div class="video">
-            <h4>Civilização Egípcia</h4>
-            <iframe src="https://www.youtube.com/embed/video-egito" frameborder="0" allowfullscreen></iframe>
+            <h4>IDADE MÉDIA E FEUDALISMO</h4>
+            <iframe src="https://www.youtube.com/embed/QjoHiK_luxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     
         <div class="video">
-            <h4>Grécia Antiga e sua Influência</h4>
-            <iframe src="https://www.youtube.com/embed/video-grecia" frameborder="0" allowfullscreen></iframe>
+            <h4>ALTA E BAIXA IDADE MÉDIA</h4>
+            <iframe src="https://www.youtube.com/embed/YbR1bxtGnMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     
         <div class="video">
-            <h4>Roma e seu Império</h4>
-            <iframe src="https://www.youtube.com/embed/video-roma" frameborder="0" allowfullscreen></iframe>
+            <h4> Os 10 mais agonizantes tratamentos da IDADE MÉDIA</h4>
+            <iframe src="https://www.youtube.com/embed/YbR1bxtGnMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     </div>
 
