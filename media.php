@@ -22,6 +22,7 @@
                 <li><a href="glossario.php">Glossário Histórico</a></li>
                
             </ul>
+            <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
         <div class="menu-toggle" id="menuToggle">
             <span>☰</span>

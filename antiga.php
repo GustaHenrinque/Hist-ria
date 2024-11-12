@@ -22,6 +22,7 @@
                 <li><a href="contempo.php">Idade Contemporânea</a></li>
                 
             </ul>
+            <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -99,7 +100,7 @@
 
     </div>
     
-    <div class="videos">
+    <div class="video-container">
         <div class="video">
             <h4>A Civilização Mesopotâmica</h4>
             <iframe src="https://www.youtube.com/embed/video-mesopotamia" frameborder="0" allowfullscreen></iframe>

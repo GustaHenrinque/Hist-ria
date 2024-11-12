@@ -51,6 +51,12 @@ header {
     z-index: 1001;
 }
 
+.sidebar img{
+    max-width: 100%;  
+    height: auto;    
+    margin-bottom: 15px;  
+}
+
 .sidebar.active {
     left: 0;
 }
@@ -269,4 +275,72 @@ p {
     .text {
         margin-bottom: 0;
     }
+
 }
+
+@media (max-width: 768px) {
+    .video-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      padding-left: 50px;
+    }
+  
+    .video{
+      width: auto;
+      aspect-ratio: 16 / 9;
+      background-color: #000;
+      border-radius: 8px;
+      flex: 1 1 48%;
+      max-width: 48%;
+      box-sizing: border-box;
+    }
+
+    .content text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .pedra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .pedra img {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    
+    .text {
+        padding: 10px;
+    }
+
+    .mesolitico-neolitico {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .mesolitico-neolitico .image img {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    
+    .text {
+        padding: 10px;
+    }
+  }
+  
+
+
