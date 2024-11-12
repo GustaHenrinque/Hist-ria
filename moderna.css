@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+   
     background-color: #000;
     color: #fff;
     line-height: 1.6;
@@ -107,7 +107,7 @@ header {
 
 h1 {
     font-size: 3em;
-    font-family: 'Kavoon', cursive;
+    
     color: #fff;
     margin-bottom: 5px;
 }
@@ -130,14 +130,14 @@ h2, h3 {
 }
 
 .section.paleolitico h3 {
-    font-family: 'Kavoon', cursive;
+    
     color: #fff;
     margin-top: 10px;
     font-size: 2.2em;
 }
 
 .kavoon-title {
-    font-family: 'Kavoon', cursive;
+   
     color: #fff;
     font-size: 2em;
 }

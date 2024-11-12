@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -13,32 +12,28 @@
 <header>
     <div class="barra">
         <nav class="sidebar" id="sidebar">
-        <ul>
-                        <li><a href="INDEX.php">Início</a></li>
-                        <li><a href="pre-historia.php">História Primitiva</a></li>
-                        <li><a href="antiga.php">História Antiga</a></li>
-                        <li><a href="media.php">Idade Média</a></li>
-                        <li><a href="moderna.php">Idade Moderna</a></li>
-                        <li><a href="contempo.php">Idade Contemporânea</a></li>
-                        <li><a href="glossario.php">Glossário Histórico</a></li>
-
-                        <li><a href="dev.php">Devs</a></li>
-                    </ul>
-                    
+            <ul>
+                <li><a href="INDEX.php">Início</a></li>
+                <li><a href="pre-historia.php">História Primitiva</a></li>
+                <li><a href="antiga.php">História Antiga</a></li>
+                <li><a href="media.php">Idade Média</a></li>
+                <li><a href="moderna.php">Idade Moderna</a></li>
+                <li><a href="contempo.php">Idade Contemporânea</a></li>
+                <li><a href="glossario.php">Glossário Histórico</a></li>
+                <li><a href="dev.php">Devs</a></li>
+            </ul>
         </nav>
-
         <div class="menu-toggle" id="menuToggle">
             <span>☰</span>
         </div>
-
-    
-        </div>
+    </div>
 </header>
-    <div class="container">
-        <section class="header">
-            <h1>Idade Média</h1>
-            <p class="subtitle">A Idade Média, ou "Era das Trevas", foi um período entre a queda do Império Romano e o início da Idade Moderna, marcado pelo sistema feudal, influência da Igreja e importantes eventos históricos.</p>
-        </section>
+
+<div class="container">
+    <section class="header">
+        <h1>Idade Média</h1>
+        <p class="subtitle">A Idade Média, ou "Era das Trevas", foi um período entre a queda do Império Romano e o início da Idade Moderna, marcado pelo sistema feudal, influência da Igreja e importantes eventos históricos.</p>
+    </section>
 
      
         <section class="section idade-media">

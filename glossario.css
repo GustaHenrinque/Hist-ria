@@ -1,17 +1,20 @@
+/* Reset de margem e padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo do corpo da página */
 body {
     font-family: 'Bembo', serif;
-    background-color: #111;
-    color: #e0e0e0;
+    background-color: white;
+    color: black;
     line-height: 1.6;
     padding: 20px;
 }
 
+/* Estilo do cabeçalho */
 header {
     display: flex;
     justify-content: center;
@@ -26,6 +29,7 @@ header {
     background-color: transparent;
 }
 
+/* Estilo do título principal */
 h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -33,11 +37,11 @@ h1 {
     margin-bottom: 20px; /* Espaçamento entre o título e a lista */
 }
 
-
 h1 strong {
     color: #00bfff;
 }
 
+/* Container que envolve o conteúdo */
 .container {
     display: flex;
     position: relative;
@@ -101,7 +105,7 @@ h1 strong {
 }
 
 .menu-toggle {
-    color: #fff;
+    color: gray;
     font-size: 30px;
     cursor: pointer;
     position: fixed;
@@ -110,6 +114,7 @@ h1 strong {
     z-index: 1002;
 }
 
+/* Estilo do glossário */
 .glossary {
     max-width: 1000px;
     margin: 0 auto;
@@ -131,4 +136,46 @@ h1 strong {
 
 .glossary li strong {
     color: #00aaff;
+}
+
+/* Barra de pesquisa */
+.search-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    border-color: #007BFF;
+}
+
+#suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+    z-index: 10;
+}
+
+#suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestions div:hover {
+    background-color: #f0f0f0;
 }
