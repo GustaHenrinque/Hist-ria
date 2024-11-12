@@ -21,11 +21,7 @@
                         <li><a href="moderna.php">Idade Moderna</a></li>
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
-<<<<<<< HEAD
                         <li><a href="dev.php">Devs</a></li>
-=======
-                        
->>>>>>> 6894cd180dbbf81b070d1d8e17e69bee83a97ee1
                     </ul>
                     <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
@@ -50,9 +46,9 @@
                 <div class="pedra">
                     <img src="https://static.historiadomundo.com.br/2019/05/hominideo.jpg" alt="Crânio de hominídeo">
                     <p class="caption">Crânio do hominídeo homo heidelbergensis, que viveu entre 500 mil e 250 mil anos atrás.</p>
-                    <div class="text">
-                        <p>O Período Paleolítico, ou Idade da Pedra Lascada, ocorreu entre cerca de 3 milhões de anos e 10.000 a.C., e foi dividido em três fases: Inferior, Médio e Superior. No Paleolítico Inferior (3 milhões a 250 mil anos atrás), os primeiros hominídeos, como o Homo habilis e o Homo erectus, desenvolveram ferramentas simples para a sobrevivência. O Paleolítico Médio (250 mil a 40.000 a.C.) foi marcado pelo surgimento dos neandertais e o aprimoramento do uso de ferramentas e fogo. Já no Paleolítico Superior (50.000 a 10.000 a.C.), as ferramentas se tornaram mais complexas, e surgiram as primeiras manifestações artísticas, como as pinturas rupestres. Durante esse período, o homem vivia da caça e coleta, sendo nômade devido à escassez de recursos nos locais onde se instalava. As ferramentas eram feitas de pedra, osso e marfim, e, com a temperatura amena da Terra, os seres humanos se abrigavam em cavernas. Ao final do Paleolítico, começaram a surgir práticas religiosas e rituais funerários, indicando um desenvolvimento cultural e espiritual.</p>
-                    </div>
+                </div>
+                <div class="text">
+                    <p>O Período Paleolítico, ou Idade da Pedra Lascada, ocorreu entre cerca de 3 milhões de anos e 10.000 a.C., e foi dividido em três fases: Inferior, Médio e Superior. No Paleolítico Inferior (3 milhões a 250 mil anos atrás), os primeiros hominídeos, como o Homo habilis e o Homo erectus, desenvolveram ferramentas simples para a sobrevivência. O Paleolítico Médio (250 mil a 40.000 a.C.) foi marcado pelo surgimento dos neandertais e o aprimoramento do uso de ferramentas e fogo. Já no Paleolítico Superior (50.000 a 10.000 a.C.), as ferramentas se tornaram mais complexas, e surgiram as primeiras manifestações artísticas, como as pinturas rupestres. Durante esse período, o homem vivia da caça e coleta, sendo nômade devido à escassez de recursos nos locais onde se instalava. As ferramentas eram feitas de pedra, osso e marfim, e, com a temperatura amena da Terra, os seres humanos se abrigavam em cavernas. Ao final do Paleolítico, começaram a surgir práticas religiosas e rituais funerários, indicando um desenvolvimento cultural e espiritual.</p>
                 </div>
             </div> 
            
@@ -65,10 +61,10 @@
                     <h4>Ferramentas Mesolíticas</h4>
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqP4Id78TsOv8TW1BqTvoe4UreydGRCRRh8sXu-khGSYisAE_fzBSJGSXwNMiHUv9Cit_gqeaweN06JomQqd8ePL3HN83_dPB6MkpkEubxxrah0oKT1w9-CH5npqQwqbQLshfcq60WjSSnrdOHNug1zyqaE_VL2d9FEp-F6X2a-_Eq1mNb72jArVAxuEY/s800/Almofariz%20e%20pil%C3%A3o%20de%20pedra%20mesol%C3%ADtico.jpg" alt="Ferramentas Mesolíticas">
                     <p class="caption">Ferramentas Mesolíticas</p>
-                    <div class="text">
-                        <h4>Mesolítico</h4>
-                        <p>O Mesolítico é uma fase intermediária entre o Paleolítico e o Neolítico que aconteceu em determinadas partes do mundo. Os especialistas em Pré-História destacam que o Mesolítico aconteceu, sobretudo, em locais onde houve glaciações intensas. Aconteceu na Europa e em partes da Ásia e estendeu-se, aproximadamente, entre 13.000 a.C. e 9.000 a.C. Esse período marcou a decadência dos agrupamentos humanos que viviam exclusivamente da caça em detrimento daqueles que eram caçadores e coletores. Ficou marcado também pelo desenvolvimento da olaria (produção de cerâmica) e da técnica para produção de tecidos. Considera-se o fim desse período o momento em que a agricultura foi desenvolvida.</p>
-                    </div>
+                </div>
+                <div class="text">
+                    <h4>Mesolítico</h4>
+                    <p>O Mesolítico é uma fase intermediária entre o Paleolítico e o Neolítico que aconteceu em determinadas partes do mundo. Os especialistas em Pré-História destacam que o Mesolítico aconteceu, sobretudo, em locais onde houve glaciações intensas. Aconteceu na Europa e em partes da Ásia e estendeu-se, aproximadamente, entre 13.000 a.C. e 9.000 a.C. Esse período marcou a decadência dos agrupamentos humanos que viviam exclusivamente da caça em detrimento daqueles que eram caçadores e coletores. Ficou marcado também pelo desenvolvimento da olaria (produção de cerâmica) e da técnica para produção de tecidos. Considera-se o fim desse período o momento em que a agricultura foi desenvolvida.</p>
                 </div>
             </div>
 
@@ -76,11 +72,12 @@
                 <div class="text">
                     <h4>Neolítico</h4>
                     <p>O Neolítico (10.000 a.C. – 3.000 a.C.) marcou grandes transformações na vida humana, com o surgimento da agricultura e a domesticação de animais, permitindo a sedentarização e o desenvolvimento de aldeias e cidades. A agricultura possibilitou a produção de alimentos e a criação de campos de plantio, enquanto os animais domesticados auxiliaram no transporte, alimentação e trabalho agrícola. O aumento da população gerou uma sociedade mais complexa e desigual, com hierarquias sociais baseadas no controle de recursos. O período também foi caracterizado pelo avanço da arquitetura, como construções megalíticas, e pela olaria. O fim do Neolítico coincide com o início da metalurgia e a invenção da escrita cuneiforme, a primeira forma de registro histórico.</p>
-                    <div class="image">
-                        <h4>Cena agrícola Neolítica</h4>
-                        <img src="https://assets.sutori.com/user-uploads/image/50b7a1d4-ec83-46b9-a567-1875c4ee09be/4b339856722d8b7307d4dc79376b4d82.jpeg" alt="Cena agrícola Neolítica">
-                        <p class="caption">Cena agrícola Neolítica</p>
-                    </div>
+                   
+                </div>
+                <div class="image">
+                    <h4>Cena agrícola Neolítica</h4>
+                    <img src="https://assets.sutori.com/user-uploads/image/50b7a1d4-ec83-46b9-a567-1875c4ee09be/4b339856722d8b7307d4dc79376b4d82.jpeg" alt="Cena agrícola Neolítica">
+                    <p class="caption">Cena agrícola Neolítica</p>
                 </div>
             </div>
         </section>
@@ -110,7 +107,7 @@
 
     </div>
     
-    <div class="video-container">
+    <div class="videos">
         
         
         <div class="video">
