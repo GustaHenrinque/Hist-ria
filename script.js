@@ -1,4 +1,4 @@
-// Função para verificar se o usuário é professor
+
 function isProfessor() {
     const userRole = localStorage.getItem("userRole"); // Armazenando o tipo de usuário no localStorage
     return userRole === "professor";  // Verifica se o tipo de usuário é "professor"

@@ -118,7 +118,7 @@ h1 strong {
 .glossary {
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 100px; /* Ajustando o espaço para o cabeçalho fixo */
 }
 
 .glossary ul {
@@ -178,4 +178,145 @@ h1 strong {
 
 #suggestions div:hover {
     background-color: #f0f0f0;
+}
+
+/* Estilos para os itens da lista de glossário com botões de Editar e Excluir */
+#glossaryList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#glossaryList li strong {
+    color: #007BFF;
+}
+
+#glossaryList li button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#glossaryList li button:hover {
+    background-color: #0056b3;
+}
+
+/* Posicionamento dos botões de Editar e Excluir */
+#glossaryList li button:first-of-type {
+    margin-left: auto;
+}
+
+/* Efeito de hover nos itens */
+#glossaryList li:hover {
+    background-color: #f1f1f1;
+}
+
+#backToTop {
+    display: none; /* Esconde o botão inicialmente */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3085d6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 20px; /* Alinha a seta no centro */
+    transition: opacity 0.3s ease;
+}
+
+#backToTop:hover {
+    background-color: #226aa3;
+}
+.btn-add-term {
+    background-color: #3085d6; /* Tom de vinho */
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-add-term::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease;
+}
+
+.btn-add-term:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.btn-add-term:hover {
+    background-color: #3085d6; /* Tom mais claro de vinho */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-add-term:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.remove-btn {
+    background-color: transparent;
+    color: #800000;
+    border: 2px solid #800000;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: transparent;
+    color: #006400;
+    border: 2px solid #006400;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none; /* Inicialmente escondido */
+}
+
+#backToTopBtn:hover {
+    background-color: #0056b3;
 }

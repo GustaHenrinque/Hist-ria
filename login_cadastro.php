@@ -11,20 +11,13 @@ if ($conn->connect_error) {
     die("Conexão falhou: " . $conn->connect_error);
 }
 
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) { // Remove uma chave extra aqui
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
     $senha_confirmacao = $_POST['senha_confirmacao'];
 
     $tipo = $_POST['tipo'];  // Removido 'm' extra aqui
-
-    $tipo = $_POST['tipo'];
-
 
     if ($senha !== $senha_confirmacao) {
         echo "<script>alert('As senhas não coincidem.');</script>";
@@ -38,14 +31,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         if ($conn->query($sql) === TRUE) {
-
             echo "<script>alert('Cadastro realizado com sucesso!');</script>";
-            header("Location: login.php");
-
             $_SESSION['cadastro_sucesso'] = true;
             header("Location: login.php");
             exit;
-
         } else {
             echo "Erro: " . $sql . "<br>" . $conn->error;
         }

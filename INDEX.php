@@ -59,7 +59,6 @@ console.log("O arquivo js.js foi carregado!");
 <script src="js.js"></script>  
 
 
-        <a href="periodos.php" class="cta-button" id="saibaMaisBtn">SAIBA MAIS</a>
     </div> 
 </section>
 

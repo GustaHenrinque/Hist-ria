@@ -153,6 +153,13 @@ $conn->close();
                 setTimeout(closeModal, 3000);
             }
         }
+       
+
+
+header("Location: painel.php");
+exit;
+
+
     </script>
 </body>
 </html>
