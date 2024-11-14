@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
