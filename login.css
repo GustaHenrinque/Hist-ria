@@ -7,23 +7,25 @@
 body {
     display: flex;
     height: 100vh;
+    background-color: black;
 }
 
 .login-container {
     display: flex;
     width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
 }
 
 .login-box {
-    width: 30%; 
-    height: 100%;
     background-color: black;
     color: white;
-    padding: 100px;
-    display: flex;
+    padding: 20px;
+    width: 500px;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    border-right: 2px solid #000000; 
 }
 
 .login-box h1 {
@@ -83,8 +85,28 @@ button:hover {
 }
 
 .image-box {
-    flex: 1;
-    background-image: url('img/loginhistoria2.png');
+    background-image: url('./img/loginhistoria2.png');
     background-size: cover;
     background-position: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .image-box {
+        display: none;
+    }
+    
+    .login-container {
+        max-width: 100%;
+        height: auto;
+    }
+    .login-box {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        width: 315px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

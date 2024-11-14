@@ -126,7 +126,8 @@ $conn->close();
             <p>Não tem uma conta?</p> <br>
             <button type="button" onclick="window.location.href='login_cadastro.php';">Cadastre-se</button>
         </div>
-        <div class="image-box"></div>
+        <div class="image-box">
+        </div>
     </div>
 
     <?php if ($alertMessage): ?>
