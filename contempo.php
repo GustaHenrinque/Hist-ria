@@ -13,6 +13,7 @@
         <nav class="sidebar" id="sidebar">
                     <ul>
                         <li><a href="INDEX.php">Início</a></li>
+                        <li><a href="periodos.php">Períodos</a></li>
                         <li><a href="pre-historia.php">História Primitiva</a></li>
                         <li><a href="antiga.php">História Antiga</a></li>
                         <li><a href="media.php">Idade Média</a></li>
@@ -20,7 +21,7 @@
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
                     </ul>
-                    
+                    <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">

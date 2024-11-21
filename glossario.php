@@ -15,6 +15,7 @@
             <nav class="sidebar" id="sidebar">
                 <ul>
                     <li><a href="INDEX.php">Início</a></li>
+                    <li><a href="periodos.php">Períodos</a></li>
                     <li><a href="pre-historia.php">História Primitiva</a></li>
                     <li><a href="antiga.php">História Antiga</a></li>
                     <li><a href="media.php">Idade Média</a></li>
