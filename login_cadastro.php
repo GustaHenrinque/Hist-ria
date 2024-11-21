@@ -11,7 +11,11 @@ if ($conn->connect_error) {
     die("Conexão falhou: " . $conn->connect_error);
 }
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) { // Remove uma chave extra aqui
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];

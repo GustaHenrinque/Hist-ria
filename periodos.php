@@ -99,7 +99,7 @@
             <p>A Idade Contemporânea abrange do final do século XVIII até os dias atuais, incluindo revoluções industriais, guerras mundiais e inovações tecnológicas que moldaram o mundo moderno.</p>
 
 
-            <a href="pre-historia.php" class="button">SABER MAIS</a>
+            <a href="contempo.php" class="button">SABER MAIS</a>
 
         </div>
     </section>

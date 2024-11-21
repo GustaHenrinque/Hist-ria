@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pré-História</title>
-    <link rel="stylesheet" href="contempo.css">
+    <link rel="stylesheet" href="moderna.css">
     <script src="js.js" defer></script>
 </head>
 <body>
 <header>
     <div class="barra">
         <nav class="sidebar" id="sidebar">
-        <ul>
+                    <ul>
                         <li><a href="INDEX.php">Início</a></li>
                         <li><a href="pre-historia.php">História Primitiva</a></li>
                         <li><a href="antiga.php">História Antiga</a></li>
@@ -32,26 +32,26 @@
 </header>
     <div class="container">
         
-        <section class="header">
-            <h1>Idade Contemporânea</h1>
+        <section class="headerct">
+            <h1 class="titulocontempo">Idade Contemporânea</h1>
             <p class="subtitle">"A Idade Contemporânea é um tempo histórico que foi inaugurado na Revolução Francesa e dura até os dias atuais. É um período de profundas mudanças."</p>
         </section>
 
-        <section class="section paleolitico">
+        <section class="section idade-moderna">
             <h3>Resumo sobre a Idade Contemporânea</h3>
             <div class="content">
                 <div class="text">
                     <p>A Idade Contemporânea é o período histórico que começou na Revolução Francesa e se estende até os dias de hoje.
                         As principais características da Idade Contemporânea são: consolidação do capitalismo, desenvolvimento industrial e tecnológico e separação dos poderes do Estado das religiões.
                         "São exemplos de acontecimentos marcantes da Idade Contemporânea na Europa:
-<li>Revolução Francesa;</li>
-<li>Revolução Industrial;</li>
-<li>Unificação Italiana e Alemã;</li>
-<li>Revolução Russa;</li>
-<li>grandes guerras mundiais;</li>
-<li>Guerra Fria.</li>
+                        <li>Revolução Francesa;</li>
+                        <li>Revolução Industrial;</li>
+                        <li>Unificação Italiana e Alemã;</li>
+                        <li>Revolução Russa;</li>
+                        <li>grandes guerras mundiais;</li>
+                        <li>Guerra Fria.</li>
 
-O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um império e, depois, uma república."</p>
+                        O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um império e, depois, uma república."</p>
                 </div>
                 <div class="image">
                     <img src="queda.webp" alt="Queda da Bastilha">
@@ -60,7 +60,7 @@ O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um 
             </div> 
         </section>
 
-        <section class="section mesolitico-neolitico">
+        <section class="section renascimento">
             <h3 class="kavoon-title">Características da Idade Contemporânea</h3>
             <div class="content">
                 <div class="image">
