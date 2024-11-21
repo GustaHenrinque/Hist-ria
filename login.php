@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $user = $result->fetch_assoc();
             if (password_verify($senha, $user['senha'])) {
                 $_SESSION['nome'] = $user['nome'];
-                $_SESSION['tipo'] = $tipo;
+                $_SESSION['tipo'] = $tipo;    
                 $_SESSION['autenticado'] = TRUE;
                 header("Location: index.php");
                 exit;
