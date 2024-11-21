@@ -6,6 +6,7 @@
     <title>Pré-História</title>
     <link rel="stylesheet" href="moderna.css">
     <script src="js.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -33,9 +34,9 @@
 </header>
     <div class="container">
         
-        <section class="headerct">
+        <section class="header">
             <h1 class="titulocontempo">Idade Contemporânea</h1>
-            <p class="subtitle">"A Idade Contemporânea é um tempo histórico que foi inaugurado na Revolução Francesa e dura até os dias atuais. É um período de profundas mudanças."</p>
+            <p class="subtitle">A Idade Contemporânea é um tempo histórico que foi inaugurado na Revolução Francesa e dura até os dias atuais. É um período de profundas mudanças.</p>
         </section>
 
         <section class="section idade-moderna">
