@@ -22,6 +22,10 @@ header {
     z-index: 1000;
     height: 77px;
 }
+header h1 {
+    margin-left: 20px;
+    font-size: 34px;
+}
 
 .barra {
     display: flex;
