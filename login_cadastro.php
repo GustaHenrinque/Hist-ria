@@ -11,29 +11,31 @@ if ($conn->connect_error) {
     die("Conexão falhou: " . $conn->connect_error);
 }
 
-
+// Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
     $senha_confirmacao = $_POST['senha_confirmacao'];
 
-    $tipo = $_POST['tipo'];  // Removido 'm' extra aqui
+    $tipo = $_POST['tipo'];  // Removed extra 'm' here
 
+    // Check if passwords match
     if ($senha !== $senha_confirmacao) {
         echo "<script>alert('As senhas não coincidem.');</script>";
     } else {
+        // Hash the password
         $senha_hash = password_hash($senha, PASSWORD_DEFAULT);
 
+        // Insert the data into respective table based on the user type
         if ($tipo === 'professor') {
             $sql = "INSERT INTO professores (nome, email, senha) VALUES ('$nome', '$email', '$senha_hash')";
         } else {
             $sql = "INSERT INTO alunos (nome, email, senha) VALUES ('$nome', '$email', '$senha_hash')";
         }
 
+        // Execute the query and check if successful
         if ($conn->query($sql) === TRUE) {
             echo "<script>alert('Cadastro realizado com sucesso!');</script>";
             $_SESSION['cadastro_sucesso'] = true;
@@ -73,7 +75,7 @@ $conn->close();
                 <option value="professor">Professor</option>
                 <option value="aluno">Aluno</option>
             </select>
-            <button type="submit">Cadastrar</button>
+            <button type="submit" name="action" value="submit">Cadastrar</button>
         </form>
     </div>
 </body>
