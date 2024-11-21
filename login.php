@@ -56,7 +56,6 @@ $conn->close();
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
     <style>
-        /* Estilos para o modal de alerta */
         .modal {
             display: flex;
             position: fixed;
@@ -130,7 +129,6 @@ $conn->close();
         <div class="image-box"></div>
     </div>
 
-    <!-- Modal de alerta para mensagens -->
     <?php if ($alertMessage): ?>
     <div id="alertModal" class="modal">
         <div class="modal-content">

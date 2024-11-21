@@ -20,8 +20,9 @@
                 <li><a href="media.php">Idade Média</a></li>
                 <li><a href="moderna.php">Idade Moderna</a></li>
                 <li><a href="contempo.php">Idade Contemporânea</a></li>
-                <li><a href="dev.php">Devs</a></li>
+                
             </ul>
+            <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -102,22 +103,31 @@
     <div class="videos">
         <div class="video">
             <h4>A Civilização Mesopotâmica</h4>
-            <iframe src="https://www.youtube.com/embed/video-mesopotamia" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MIksUwkrmrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
         </div>
     
         <div class="video">
             <h4>Civilização Egípcia</h4>
-            <iframe src="https://www.youtube.com/embed/video-egito" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2T8ereEFd58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
         </div>
     
         <div class="video">
             <h4>Grécia Antiga e sua Influência</h4>
-            <iframe src="https://www.youtube.com/embed/video-grecia" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ijU4-hf7lGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
         </div>
     
         <div class="video">
             <h4>Roma e seu Império</h4>
-            <iframe src="https://www.youtube.com/embed/video-roma" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ERYdnVQL9Vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
         </div>
     </div>
     

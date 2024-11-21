@@ -192,7 +192,7 @@ header a:hover::after {
 }
 
 h4 {
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 24px;
 }
 
@@ -268,9 +268,80 @@ button:hover {
     background-color: #333;
 }
 
-@media (max-width: 768px) {
-    .main-content {
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 768p){
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .section {
+      flex-direction: column;
+    }
+  
+    .section .content {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    body {
+      font-size: 14px;
     }
 }
+  
+@media (max-width: 480px) {
+    .hero h4 {
+        font-size: 1.5rem;
+    }
+    
+    .hero p {
+        font-size: 0.9rem;
+    }
+    
+    .navbar a {
+        padding: 8px;
+    }
+  
+    .section {
+        padding: 10px;
+    }
+  
+    .section .content {
+        padding: 8px;
+    }
+    
+    .login-area {
+        display: flex;
+        justify-content: flex-end; /* Alinha o botão à esquerda ou direita conforme necessidade */
+        padding: 10px; /* Ajuste para controlar o espaçamento do botão */
+    }
+    
+    .btn-login {
+        background-color: #00bfff;
+        color: white;
+        padding: 5px 12px;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 15px;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    
+    .btn-login:hover {
+        background-color: #008fbf;
+        transform: translateY(-3px);
+    }
+    
+    .btn-login:active {
+        background-color: #006f8f;
+        transform: translateY(1px);
+    }
+    
+    .btn-login:focus {
+        outline: none;
+        box-shadow: 0 0 5px #00bfff;
+    }
+}
+
+

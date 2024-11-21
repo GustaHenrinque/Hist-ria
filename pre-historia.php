@@ -13,7 +13,7 @@
 <header>
     <div class="barra">
         <nav class="sidebar" id="sidebar">
-        <ul>
+                    <ul>
                         <li><a href="INDEX.php">Início</a></li>
                         <li><a href="pre-historia.php">História Primitiva</a></li>
                         <li><a href="antiga.php">História Antiga</a></li>
@@ -21,9 +21,8 @@
                         <li><a href="moderna.php">Idade Moderna</a></li>
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
-                        <li><a href="dev.php">Devs</a></li>
-
                     </ul>
+                    <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -40,30 +39,20 @@
             <p class="subtitle">A Pré-História é dividida entre os períodos Paleolítico, Mesolítico e Neolítico.</p>
         </section>
 
-        <!-- Seção Paleolítico -->
         <section class="section paleolitico">
             <h3>Paleolítico</h3>
             <div class="content">
-                <div class="text">
-                    <p>O Período Paleolítico, também chamado de Idade da Pedra Lascada, ocorreu entre aproximadamente 3 milhões de anos atrás e 10.000 a.C. Esse longo período foi dividido em três fases: Paleolítico Inferior, Médio e Superior, cada uma com características próprias. No Paleolítico Inferior, que se estendeu de 3 milhões a 250 mil anos atrás, os primeiros hominídeos, como o Homo habilis e o Homo erectus, começaram a desenvolver ferramentas simples para a sobrevivência. Já o Paleolítico Médio, entre 250 mil anos e 40.000 a.C., foi caracterizado pelo surgimento dos neandertais e pela presença do Homo sapiens, que aprimoraram o uso de ferramentas e difundiram o uso do fogo. Por fim, o Paleolítico Superior, de 50.000 a 10.000 a.C., viu um aumento na variedade e complexidade das ferramentas, além do surgimento das primeiras manifestações artísticas, como as pinturas rupestres nas cavernas.</p>
-                </div>
                 <div class="pedra">
                     <img src="https://static.historiadomundo.com.br/2019/05/hominideo.jpg" alt="Crânio de hominídeo">
                     <p class="caption">Crânio do hominídeo homo heidelbergensis, que viveu entre 500 mil e 250 mil anos atrás.</p>
                 </div>
-            </div> 
-            <div class="content">
-                <div class="image">
-                    <img src="https://static.historiadomundo.com.br/2019/05/arte-rupestre.jpg" alt="Arte Rupestre">
-                    <p class="caption">Arte rupestre encontrada em cavernas.</p>
-                </div>
                 <div class="text">
-                    <p>Abrangendo os três períodos, resumidamente, o Paleolítico é um período em que o homem sobrevivia da coleta e da caça, sendo fundamental, no caso da caça, a elaboração de ferramentas para auxiliá-lo na obtenção do alimento. Por depender da caça e coleta, o homem era nômade e mudava de lugar quando os recursos do local que estava instalado ficava escasso. Como a temperatura geral da Terra era mais amena, sobretudo nos períodos de glaciação, o homem vivia nas cavernas para proteger-se do frio. As ferramentas utilizadas poderiam ser feitas de ossos, pedras e marfim. No fim do Paleolítico, o ser humano começou a experimentar as primeiras experiências religiosas, e o desenvolvimento do estilo de vida dos homens fez com que eles desenvolvessem rituais funerários, por exemplo.</p>
+                    <p>O Período Paleolítico, ou Idade da Pedra Lascada, ocorreu entre cerca de 3 milhões de anos e 10.000 a.C., e foi dividido em três fases: Inferior, Médio e Superior. No Paleolítico Inferior (3 milhões a 250 mil anos atrás), os primeiros hominídeos, como o Homo habilis e o Homo erectus, desenvolveram ferramentas simples para a sobrevivência. O Paleolítico Médio (250 mil a 40.000 a.C.) foi marcado pelo surgimento dos neandertais e o aprimoramento do uso de ferramentas e fogo. Já no Paleolítico Superior (50.000 a 10.000 a.C.), as ferramentas se tornaram mais complexas, e surgiram as primeiras manifestações artísticas, como as pinturas rupestres. Durante esse período, o homem vivia da caça e coleta, sendo nômade devido à escassez de recursos nos locais onde se instalava. As ferramentas eram feitas de pedra, osso e marfim, e, com a temperatura amena da Terra, os seres humanos se abrigavam em cavernas. Ao final do Paleolítico, começaram a surgir práticas religiosas e rituais funerários, indicando um desenvolvimento cultural e espiritual.</p>
                 </div>
-            </div>
+            </div> 
+           
         </section>
 
-        <!-- Seção Mesolítico e Neolítico juntos -->
         <section class="section mesolitico-neolitico">
             <h3 class="kavoon-title">Mesolítico e Neolítico</h3>
             <div class="content">
@@ -92,7 +81,6 @@
             </div>
         </section>
 
-        <!-- Divisão do Trabalho na Pré-História -->
         <section class="section trabalho">
             <h3 class="kavoon-title">Divisão do trabalho na Pré-História</h3>
             <p>
@@ -101,7 +89,6 @@
             </p>
         </section>
 
-        <!-- Seção Arte na Pré-História -->
         <section class="section arte">
             <h3 class="kavoon-title">Arte na Pré-História</h3>
             <div class="content">

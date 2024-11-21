@@ -20,8 +20,9 @@
                 <li><a href="moderna.php">Idade Moderna</a></li>
                 <li><a href="contempo.php">Idade Contemporânea</a></li>
                 <li><a href="glossario.php">Glossário Histórico</a></li>
-                <li><a href="dev.php">Devs</a></li>
+               
             </ul>
+            <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
         <div class="menu-toggle" id="menuToggle">
             <span>☰</span>
@@ -104,4 +105,37 @@
                     <p>A pintura medieval frequentemente ilustrava cenas bíblicas e santos, e os manuscritos iluminados, ricamente decorados, eram outra forma importante de expressão artística. A arte gótica nas catedrais representava a ascensão da espiritualidade, com suas torres altas e vitrais que enchiam os templos de luz. Esses elementos artísticos não apenas embelezavam os edifícios, mas também eram usados para educar a população, que muitas vezes não sabia ler. Assim, a arte servia como uma poderosa ferramenta de comunicação da fé cristã.</p>
                 </div>
                 <div class="image">
-                    <img src="img/arquitetura 2.png" alt
+                    <img src="img/arquitetura 2.png" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="videos">
+        <div class="video">
+            <h4>Idade Média</h4>
+            <iframe src="https://www.youtube.com/embed/xYRsIQT-Qmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+    
+        <div class="video">
+            <h4>IDADE MÉDIA E FEUDALISMO</h4>
+            <iframe src="https://www.youtube.com/embed/QjoHiK_luxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+    
+        <div class="video">
+            <h4>ALTA E BAIXA IDADE MÉDIA</h4>
+            <iframe src="https://www.youtube.com/embed/YbR1bxtGnMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+    
+        <div class="video">
+            <h4> Os 10 mais agonizantes tratamentos da IDADE MÉDIA</h4>
+            <iframe src="https://www.youtube.com/embed/YbR1bxtGnMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+    </div>
+
+</body>
+</html>
+        
+    

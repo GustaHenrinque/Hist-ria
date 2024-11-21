@@ -25,9 +25,7 @@
                         <li><a href="moderna.php">Idade Moderna</a></li>
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
-                        <li><a href="dev.php">Devs</a></li>
-
-
+                        
                     </ul>
 
                     </ul>
@@ -106,10 +104,36 @@
         </div>
     </section>
 
-
     <footer>
-        <p>&copy; 2024 Estudando História. Aprenda e explore os períodos históricos com a gente!</p>
-    </footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                
+            <p>&copy;2024  </p>
+                <p><a href="https://www.sesisp.org.br/ca%C3%A7apava" target="_blank">SESI CAÇAPAVA</a></p>
+                <p>Email: contato@sesi-cacapava.edu.br</p>
+                <p>Telefone: (12) 3456-7890</p>
+                <p><a href="https://www.sp.senai.br/taubate" target="_blank">SENAI TAUBATÉ</a></p>
+                <p>Email: contato@senai-taubate.edu.br</p>
+                <p>Telefone: (12) 9876-5432</p>
+            </div>
+            <div class="team-info">
+                <p>DESENVOLVEDORES</p>
+                
+                <p>Gustavo Martins</p>
+                <p>Kauã Albuquerque</p>
+                <p>Matheus Villar</p>
+                <p>Pedro Zocatelli </p>
+                <p>Rian Prado</p>
+            </div>
+            <div class="footer-links">
+                
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Ajuda</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+    </footer> 
 
 </body>
 </html>

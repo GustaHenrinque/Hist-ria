@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+   
     background-color: #000;
     color: #fff;
     line-height: 1.6;
@@ -45,10 +45,6 @@ header {
     cursor: pointer;
 }
 
-/* Container */
-
-
-/* Sidebar */
 .sidebar {
     width: 250px;
     background-color: #000000;
@@ -63,6 +59,12 @@ header {
     transition: left 0.3s ease;
     z-index: 1001;
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar img {
+    max-width: 100%;  
+    height: auto;    
+    margin-bottom: 15px;  
 }
 
 .sidebar.active {
@@ -119,7 +121,7 @@ header {
 
 h1 {
     font-size: 3em;
-    font-family: 'Kavoon', cursive;
+   
     color: #fff;
     margin-bottom: 5px;
 }
@@ -142,14 +144,14 @@ h2, h3 {
 }
 
 .section.paleolitico h3 {
-    font-family: 'Kavoon', cursive;
+    
     color: #fff;
     margin-top: 10px;
     font-size: 2.2em;
 }
 
 .kavoon-title {
-    font-family: 'Kavoon', cursive;
+   
     color: #fff;
     font-size: 2em;
 }
@@ -241,6 +243,9 @@ p {
 }
 
 @media (max-width: 768px) {
+    *{
+        align-items: center;
+    }
     .content {
         flex-direction: column;
     }
@@ -252,4 +257,80 @@ p {
     .text {
         margin-bottom: 0;
     }
+    .video-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding-left: 50px;
+    }
+      
+    .video{
+        width: auto;
+        aspect-ratio: 16 / 9;
+        background-color: #000;
+        border-radius: 8px;
+        flex: 1 1 48%;
+        max-width: 48%;
+        box-sizing: border-box;
+    }
+
+    .contempo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contempo img {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    
+    .text {
+        padding: 10px;
+    }
+
+    .section mesolitico-neolitico {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .section mesolitico-neolitico img {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    
+    .text {
+        padding: 10px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .content img {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    
+    .text {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
 }
+

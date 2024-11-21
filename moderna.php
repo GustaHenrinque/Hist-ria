@@ -12,7 +12,7 @@
 <header>
     <div class="barra">
         <nav class="sidebar" id="sidebar">
-        <ul>
+                    <ul>
                         <li><a href="INDEX.php">Início</a></li>
                         <li><a href="pre-historia.php">História Primitiva</a></li>
                         <li><a href="antiga.php">História Antiga</a></li>
@@ -20,9 +20,9 @@
                         <li><a href="moderna.php">Idade Moderna</a></li>
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
-                        <li><a href="dev.php">Devs</a></li>
 
                     </ul>
+                    <img src="./img/png.png" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -116,22 +116,26 @@
     <div class="videos">
         <div class="video">
             <h4>Renascimento e o Humanismo</h4>
-            <iframe src="https://www.youtube.com/embed/video-renascimento" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rhlG6PvpuTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     
         <div class="video">
             <h4>O Absolutismo e o Rei Sol</h4>
-            <iframe src="https://www.youtube.com/embed/video-absolutismo" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/v-UcCkOKUbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     
         <div class="video">
             <h4>Ideias Iluministas</h4>
-            <iframe src="https://www.youtube.com/embed/video-iluminismo" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BWMoIJeCurY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     
         <div class="video">
             <h4>Avanços da Revolução Científica</h4>
-            <iframe src="https://www.youtube.com/embed/video-revolucao-cientifica" frameborder="0" allowfullscreen></iframe>
+            <<iframe width="560" height="315" src="https://www.youtube.com/embed/VO8mCBrCADU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     </div>
     
