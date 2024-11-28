@@ -43,17 +43,12 @@
             <h3>Resumo sobre a Idade Contemporânea</h3>
             <div class="content">
                 <div class="text">
-                    <p>A Idade Contemporânea é o período histórico que começou na Revolução Francesa e se estende até os dias de hoje.
-                        As principais características da Idade Contemporânea são: consolidação do capitalismo, desenvolvimento industrial e tecnológico e separação dos poderes do Estado das religiões.
-                        "São exemplos de acontecimentos marcantes da Idade Contemporânea na Europa:
-                        <li>Revolução Francesa;</li>
-                        <li>Revolução Industrial;</li>
-                        <li>Unificação Italiana e Alemã;</li>
-                        <li>Revolução Russa;</li>
-                        <li>grandes guerras mundiais;</li>
-                        <li>Guerra Fria.</li>
+                    <p>
+A Idade Contemporânea é o período histórico iniciado com a Revolução Francesa (1789) e que se estende até os dias atuais. Este período é marcado por profundas transformações políticas, sociais, econômicas e tecnológicas. Entre suas principais características estão a consolidação do capitalismo, o intenso desenvolvimento industrial e tecnológico, além da separação entre os poderes do Estado e as religiões, refletindo as ideias iluministas.
 
-                        O Brasil entrou na Idade Contemporânea na condição de colônia, tornou-se um império e, depois, uma república."</p>
+Na Europa, alguns dos acontecimentos mais significativos incluem a Revolução Francesa, que consolidou ideais democráticos e influenciou revoluções em diversas partes do mundo; a Revolução Industrial, que impulsionou a urbanização e o progresso tecnológico; as unificações Italiana e Alemã, que redefiniram o mapa político europeu; a Revolução Russa, que instaurou o regime socialista na Rússia; além das grandes guerras mundiais, que moldaram o cenário geopolítico global, e a Guerra Fria, que dividiu o mundo entre blocos capitalista e socialista.
+
+No Brasil, a entrada na Idade Contemporânea ocorreu ainda sob o regime de colônia. Posteriormente, o país passou por profundas mudanças, tornando-se um Império após a independência em 1822, e, mais tarde, uma República, em 1889. Esses eventos refletem a complexa transição política e social vivida pelo país durante este período.</p>
                 </div>
                 <div class="image">
                     <img src="queda.webp" alt="Queda da Bastilha">
@@ -67,9 +62,12 @@
             <div class="content">
                 <div class="image">
                     <img src="img.jpg">
+                    <p class="caption">A Queda da Bastilha, na Revolução Francesa, que é considerado o marco inicial da Idade Contemporânea.</p>
                 </div>
                 <div class="text">
-                    <p>"A Idade Contemporânea iniciou no ano de 1789, com a Revolução Francesa, e abarca muitos anos, perdurando por séculos, sendo caracterizada por grandes mudanças, revoluções e guerras. No entanto, o que se pode atribuir como sua maior característica é a consolidação do capitalismo em nível global enquanto sistema econômico e político."</p>
+                    <p>A Idade Contemporânea teve início em 1789, com a Revolução Francesa, marcada pela Queda da Bastilha, um evento que simbolizou a luta contra o absolutismo e consolidou ideias de liberdade, igualdade e fraternidade. Esse período histórico se destaca por profundas transformações sociais, políticas e econômicas que moldaram o mundo moderno.
+
+A principal característica desse período é a consolidação do capitalismo como sistema econômico e político dominante em escala global, impulsionado por revoluções industriais e avanços tecnológicos, como o motor a vapor, a eletricidade e os meios de comunicação. Essas inovações promoveram a produção em massa, o crescimento do comércio e a interconexão entre as nações, dando início à globalização.</p>
                 </div>
             </div>
 
@@ -81,6 +79,7 @@
                 <div class="image">
                     <h4>Proclamação da república</h4>
                     <img src="proclamacao-republica.webp" alt="">
+                    <p class="caption">A Queda da Bastilha, na Revolução Francesa, que é considerado o marco inicial da Idade Contemporânea.</p>
                 </div>
             </div>
         </section>
@@ -89,16 +88,11 @@
             <h3 class="kavoon-title">Proclamação da República no Brasil</h3>
             <p>A partir da República, o Brasil contemporâneo foi marcado pela:</p>
             <ul class="no-bullets">
-                <li>Política do café com leite (1889-1930);</li>
-                <li>Era Vargas (1930-1945);</li>
-                <li>50 anos em 5, de Juscelino Kubitschek (1956-1961);</li>
-                <li>Regime Civil-Militar (1964-1985);</li>
-                <li>Processo de redemocratização (1979);</li>
-                <li>Constituição de 1988;</li>
-                <li>Plano Real (1994);</li>
-                <li>Era do Partido dos Trabalhadores (2003-2016);</li>
-                <li>Bolsonarismo (2019-2022);</li>
-                <li>Governo Lula, simbolizando o retorno do Partido dos Trabalhadores (2023).</li>
+                A Proclamação da República no Brasil aconteceu em 15 de novembro de 1889, marcando a transição do regime monárquico para uma república federativa e presidencialista. O movimento foi liderado por militares descontentes, com destaque para o Marechal Deodoro da Fonseca, que se tornou o primeiro presidente do país.
+
+A crise da monarquia de Dom Pedro II foi impulsionada pela perda de apoio de grupos importantes, como as elites agrárias insatisfeitas com a abolição da escravatura em 1888 sem indenização, e pelos militares, que se sentiram desvalorizados durante o Império. O movimento republicano ganhou força com o apoio de intelectuais e políticos que buscavam modernizar o país.
+
+Sem resistência armada, Dom Pedro II foi deposto, e a família imperial foi exilada. A nova república iniciou com o Governo Provisório, liderado por Deodoro, e culminou com a Constituição de 1891, que estabeleceu os princípios da nova ordem política e econômica, consolidando o Brasil como uma república presidencialista e federativa.
             </ul>
         </section>
     </div>
