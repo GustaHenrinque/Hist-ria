@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pré-História</title>
-    <link rel="stylesheet" href="moderna.css">
+    <link rel="stylesheet" href="todamateria.css">
     <script src="js.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400&display=swap" rel="stylesheet">
 </head>
@@ -22,7 +22,7 @@
                         <li><a href="contempo.php">Idade Contemporânea</a></li>
                         <li><a href="glossario.php">Glossário Histórico</a></li>
                     </ul>
-                    <img src="./img/png.png" alt="Imagem da Idade Primitiva">
+                    <img src="./img/logo-hist.jpeg" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -63,7 +63,7 @@
         </section>
 
         <section class="section renascimento">
-            <h3 class="kavoon-title">Características da Idade Contemporânea</h3>
+            <h3>Características da Idade Contemporânea</h3>
             <div class="content">
                 <div class="image">
                     <img src="img.jpg">
@@ -86,7 +86,7 @@
         </section>
 
         <section class="section trabalho">
-            <h3 class="kavoon-title">Proclamação da República no Brasil</h3>
+            <h3>Proclamação da República no Brasil</h3>
             <p>A partir da República, o Brasil contemporâneo foi marcado pela:</p>
             <ul class="no-bullets">
                 <li>Política do café com leite (1889-1930);</li>

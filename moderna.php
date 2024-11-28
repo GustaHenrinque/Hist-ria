@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Período da Idade Moderna</title>
-    <link rel="stylesheet" href="moderna.css">
+    <link rel="stylesheet" href="todamateria.css">
     <script src="js.js" defer></script>
     
 <body>
@@ -23,7 +23,7 @@
                         <li><a href="glossario.php">Glossário Histórico</a></li>
 
                     </ul>
-                    <img src="./img/png.png" alt="Imagem da Idade Primitiva">
+                    <img src="./img/logo-hist.jpeg" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">

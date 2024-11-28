@@ -29,7 +29,7 @@ $isAluno = isset($_SESSION['tipo']) && $_SESSION['tipo'] === 'aluno';
                     <li><a href="contempo.php">Idade Contemporânea</a></li>
                     <li><a href="glossario.php">Glossário Histórico</a></li>
                 </ul>
-                <img src="./img/png.png" alt="Imagem da Idade Primitiva">
+                <img src="./img/logo-hist.jpeg" alt="Imagem da Idade Primitiva">
             </nav>
             <div class="menu-toggle" id="menuToggle">
                 <span>☰</span>
