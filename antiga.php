@@ -23,7 +23,7 @@
                 <li><a href="contempo.php">Idade Contemporânea</a></li>
                 
             </ul>
-            <img src="./img/png.png" alt="Imagem da Idade Primitiva">
+            <img src="./img/logo-hist.jpeg" alt="Imagem da Idade Primitiva">
         </nav>
 
         <div class="menu-toggle" id="menuToggle">
@@ -78,7 +78,7 @@
 
     
         <section class="section trabalho">
-            <h3 class="kavoon-title">Divisão do Trabalho na Idade Antiga</h3>
+            <h3>Divisão do Trabalho na Idade Antiga</h3>
             <p>A divisão do trabalho nas civilizações antigas foi essencial para o desenvolvimento social e econômico. Com a evolução da agricultura e o crescimento das cidades, surgiram diversas profissões especializadas, como agricultores, artesãos, soldados, e sacerdotes. Na Mesopotâmia, os escribas eram uma classe especial, responsáveis pela escrita e pela preservação de documentos, enquanto os sacerdotes controlavam a vida religiosa e os templos.</p>
             <p>A Grécia e Roma, além das ocupações tradicionais, desenvolveram uma classe de filósofos e intelectuais que exploravam temas como ética, política e ciência, enquanto os romanos introduziram o conceito de funcionários públicos que administravam o império. Essa divisão de funções permitiu que as sociedades antigas crescessem e se organizassem de maneira cada vez mais complexa.
             </p>
@@ -86,7 +86,7 @@
 
        
         <section class="section arte">
-            <h3 class="kavoon-title">Arte na Idade Antiga</h3>
+            <h3>Arte na Idade Antiga</h3>
             <div class="content">
                 <div class="text">
                     <p>A arte na Idade Antiga variava conforme a civilização. No Egito, a arte tinha uma função religiosa, retratando cenas da vida dos faraós e representações de deuses. A escultura egípcia era altamente simbólica, com estátuas monumentais e relevos esculpidos em templos e túmulos, representando a crença na vida após a morte e a importância do faraó.</p>

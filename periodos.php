@@ -30,7 +30,7 @@
                     </ul>
 
                     </ul>
-            <img src="./img/png.png" alt="Imagem da Idade Primitiva">
+            <img src="./img/logo-hist.jpeg" alt="Imagem da Idade Primitiva">
 
         </nav>
 

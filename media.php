@@ -23,7 +23,7 @@
                 <li><a href="glossario.php">Glossário Histórico</a></li>
                
             </ul>
-            <img src="./img/png.png" alt="Imagem da Idade Primitiva">
+            <img src="./img/logo-hist.jpeg" alt="Imagem da Idade Primitiva">
         </nav>
         <div class="menu-toggle" id="menuToggle">
             <span>☰</span>
@@ -54,7 +54,7 @@
 
         
         <section class="section feudalismo">
-            <h3 class="kavoon-title">Sistema Feudal</h3>
+            <h3>Sistema Feudal</h3>
             <div class="content">
                 <div class="text">
                     <p>O feudalismo foi o sistema econômico e social predominante durante a Idade Média. Nele, o poder era fragmentado entre os senhores feudais, que controlavam grandes propriedades de terra (os feudos) e exerciam autoridade sobre os servos que nelas viviam e trabalhavam. Em troca de proteção e do direito de viver na terra, os servos deviam trabalhar e pagar tributos ao senhor feudal. A maioria da população era composta por camponeses, que eram responsáveis por cultivar a terra e garantir a subsistência de todos.</p>
