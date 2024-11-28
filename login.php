@@ -29,9 +29,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($result->num_rows == 1) {
             $user = $result->fetch_assoc();
             if (password_verify($senha, $user['senha'])) {
+                // Sessão iniciada com sucesso
                 $_SESSION['nome'] = $user['nome'];
                 $_SESSION['tipo'] = $tipo;    
                 $_SESSION['autenticado'] = TRUE;
+                // Redireciona para a página inicial após o login
                 header("Location: index.php");
                 exit;
             } else {
@@ -152,13 +154,6 @@ $conn->close();
                 setTimeout(closeModal, 3000);
             }
         }
-       
-
-
-header("Location: painel.php");
-exit;
-
-
     </script>
 </body>
 </html>
